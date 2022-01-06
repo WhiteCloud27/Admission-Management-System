@@ -18,6 +18,36 @@ class UsersController extends Controller
         $member->dateofBirth=$req->dateofBirth;
         $member->gender=$req->gender;
 
+        $member->hscYear=$req->hscYear;
+        $member->hscGpa=$req->hscGpa;
+        $member->hscBoard=$req->hscBoard;
+        $member->hscReg=$req->hscReg;
+        $member->hscRoll=$req->hscRoll;
+
+        $member->sscYear=$req->sscYear;
+        $member->sscGpa=$req->sscGpa;
+        $member->sscBoard=$req->sscBoard;
+        $member->sscReg=$req->sscReg;
+        $member->sscRoll=$req->sscRoll;
+
+        $member->presentVillage=$req->presentVillage;
+        $member->presentUnion=$req->presentUnion;
+        $member->presentPostOffice=$req->presentPostOffice;
+        $member->presentThana=$req->presentThana;
+        $member->presentDistrict=$req->presentDistrict;
+
+        $member->permanentVillage=$req->permanentVillage;
+        $member->permanentUnion=$req->permanentUnion;
+        $member->permanentPostOffice=$req->permanentPostOffice;
+        $member->permanentThana=$req->permanentThana;
+        $member->permanentDistrict=$req->permanentDistrict;
+
+        $member->unit=$req->unit;
+        $member->profileImage=$req->profileImage;        
+        $member->signatureImage=$req->signatureImage;
+        $member->email=$req->email;
+        $member->phoneNo=$req->phoneNo;
+        $member->password=$req->password;
         $member->save();
       
     }

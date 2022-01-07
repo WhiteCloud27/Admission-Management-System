@@ -1,0 +1,15 @@
+div .border, .border-5 {
+  margin: 6em 8em 1.3em 8em;
+  padding-left: 30px;
+  padding-right: 15px;
+  background-color: #ebe5e5;
+}
+
+p.h4 {
+  text-align: center;
+  padding: 10px;
+}
+
+div form {
+  margin: 10px;
+}

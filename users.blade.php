@@ -1,7 +1,7 @@
-
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.css">
 <!-- jQuery library -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
 
@@ -10,6 +10,11 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+
 
 <div class="formDesign"style="width:70%; margin:auto; " >
 <h1>Apply form</h1>
@@ -19,6 +24,7 @@
 
 	<hr class="mb-5">
 	<h4>Personal Information</h4>
+
 
 	<div class="row mb-3">
 		
@@ -41,9 +47,21 @@
 
 	<div class="row mb-3">
 		
-		<div class="col-sm-6" >
+		<div class='col-sm-6'>
+         <div class="form-group">
+            <div class='input-group date' id='datetimepicker1'>
 		<input type="text" class="form-control" id="dateofBirth" name="dateofBirth" placeholder="Date of Birth" required>
-		</div>
+               <span class="input-group-addon">
+               <span class="glyphicon glyphicon-calendar"></span>
+               </span>
+            </div>
+         </div>
+      </div>
+      <script type="text/javascript">
+         $(function () {
+             $('#datetimepicker1').datetimepicker();
+         });
+      </script>
 		<div class="col-sm-6">
 		       <label for="gender"><strong>Gender:</strong></label>
 			<input type="radio" name="gender" value="Male"  style="margin-left:20px">Male
@@ -227,14 +245,10 @@
 		</div>
 	</div>	
 	<br>
-
-
 	<button class="btn btn-primary btn-lg btn-block" type="submit" style="width:25%; margin:auto">submit</button>
 	<br>
 		
 	</form>
 	</div>
 
-
-	
 	

@@ -18,7 +18,11 @@ use Illuminate\Http\Request;
 */
 
 Route::match(['get','post'],'/choosesubject',[Controlchoose::class,'choose']);
+
+Route::match(['get','post'],'/done/{faculty}',[ConfirmSubmission::class,'done'])->name('done');
+
 Route::match(['get','post'],'/choose/submit',[ControlSubmit::class,'submit'])->name('choose.submit');
 
-Route::match(['get','post'],'/confirm/submission',[ConfirmSubmission::class,'submit']);
+Auth::routes();
 
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

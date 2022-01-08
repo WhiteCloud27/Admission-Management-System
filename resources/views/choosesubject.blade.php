@@ -1,5 +1,11 @@
 @php
-	// use App\includes\student;
+/**
+ * author -> Mallika Dey
+ * This page takes information 
+ * about student for subject choice
+ * after successful form submission
+ * user will be able to give subject preferences
+ */
 @endphp
 
 <!DOCTYPE html>
@@ -18,9 +24,6 @@
     <!-- <h4></h4> -->
     <div class="border border-5">
     	<p class="h4">Subject Choice Form</p>
-    	<div class="card col-lg-6 ml-4">
-    		
-    	</div>
         <form method="POST" action="{{ route('choose.submit') }}">
         	@csrf
             <!-- Name field for student name 
@@ -90,35 +93,7 @@
             <input type="submit" name="submit" class="btn btn-primary"><br>
         </form>
     </div>
-	{{-- @php   --}}
-			{{-- @isset($_POST['submit']) --}}
-			/**
-		 	* input from choosesubject.php form
-		 	* create student type object candidate
-		 	* assign those input in candidate object
-		 	* candidate object contain details
-		 	* (name, roll, phone no, mail) of candidate
-		 	*/
-				//$candidate = new Student();
-				//$var = $_POST['stuFirstName'];
-        		//$candidate->setFirstName($var);
 	
-	        	//$var = $_POST['stuLastName'];
-	        	//$candidate->setLastName($var);
-	        	
-	        	//$var = $_POST['roll'];
-	        	//$candidate->setExamRoll($var);
-	
-	        	//$var = $_POST['phoneNum'];
-	        	//$candidate->setPhoneNum($var);
-	
-	        	//$var = $_POST['mail'];
-	        	//$candidate->setMail($var);
-	
-	        	//$var = $_POST['roll'];
-        		//$candidate->setExamRoll($var);
-			{{-- @endisset --}}
-	{{-- @endphp --}}
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity=" sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

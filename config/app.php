@@ -176,6 +176,7 @@ return [
         App\Providers\RouteServiceProvider::class,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Barryvdh\DomPDF\ServiceProvider::class,
 =======
 
@@ -183,6 +184,9 @@ return [
 =======
 
 >>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
+=======
+
+>>>>>>> FAQ
     ],
 
     /*
@@ -239,11 +243,14 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'PDF' => Barryvdh\DomPDF\Facades::class,
 =======
 >>>>>>> choose-subject
 =======
 >>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
+=======
+>>>>>>> FAQ
 
     ],
 

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+<<<<<<< HEAD
 use App\Http\Controllers\FirstController;
 use App\Http\Controllers\StudentController;
 use App\Http\Controllers\PdfController;
@@ -58,5 +59,18 @@ Auth::routes();
 Route::post("users",[UsersController::class, 'getData']);
 Route::view("/","users");
 Route::view("faq","faqs");
+=======
+use App\Http\Controllers\FaqController;
+
+
+Route::post('AdminForm',[FaqController::class,'create']);
+Route::get('/Faq',[FaqController::class,'index'])->name('index');
+
+Route::view("/Admin","AdminForm");
+
+
+
+
+>>>>>>> FAQ
 
 

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 require('./bootstrap');
 =======
 /**
@@ -38,3 +39,6 @@ const app = new Vue({
 =======
 require('./bootstrap');
 >>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
+=======
+require('./bootstrap');
+>>>>>>> FAQ

@@ -1,6 +1,7 @@
 /node_modules
 /public/hot
 <<<<<<< HEAD
+<<<<<<< HEAD
 /vendor
 =======
 /public/storage
@@ -8,6 +9,12 @@
 /vendor
 .env
 >>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
+=======
+
+
+/vendor
+
+>>>>>>> FAQ
 .env.backup
 .phpunit.result.cache
 docker-compose.override.yml

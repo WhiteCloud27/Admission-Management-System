@@ -12,12 +12,16 @@
     "devDependencies": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
+=======
+>>>>>>> FAQ
         "axios": "^0.21",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
         "postcss": "^8.1.14"
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         "@popperjs/core": "^2.10.2",
@@ -35,5 +39,7 @@
 >>>>>>> choose-subject
 =======
 >>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
+=======
+>>>>>>> FAQ
     }
 }

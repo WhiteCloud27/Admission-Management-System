@@ -8,7 +8,7 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+ 
   <style>
     .txt-center {
       text-align: center;
@@ -71,7 +71,7 @@
               <p>Savar, Dhaka-1342 <br>Bangladesh</p>
             </div>
             <div class="col-sm-4 txt-center">
-              <img src="\public\images\Jahangirnagar_University_(emblem).png" width="120px;" />
+              <img src="{{ public_path("/images/Jahangirnagar_University_(emblem).png") }}" width="120px;" />
             </div>
             <div class="col-sm-4">
               <h5>Admit Card</h5>
@@ -96,15 +96,15 @@
                     <td><b>Unit: </b> B</td>
                   </tr>
                   <tr>
-                    <td><b>Student Name: </b>Vinod Sharma</td>
+                    <td><b>Student Name: </b>Mahim</td>
                     <td><b>Sex: </b>Male</td>
                   </tr>
                   <tr>
-                    <td><b>Father's Name: </b>SS Sharma</td>
+                    <td><b>Father's Name: </b>Rezaul</td>
                     <td><b>Date of Birth: </b>02 Jul 2019</td>
                   </tr>
                   <tr>
-                    <td><b>Mother's Name: </b>SS Sharma</td>
+                    <td><b>Mother's Name: </b>Khanam</td>
                     <td><b>Session: </b>2022-2023</td>
                   </tr>
                 </tbody>

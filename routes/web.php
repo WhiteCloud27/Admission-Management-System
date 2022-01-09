@@ -17,7 +17,7 @@ use App\Http\Controllers\PdfController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('template');
 });
 
 Route::get('/dashboard',[FirstController::class,'dashboard']);
@@ -30,14 +30,7 @@ Route::get('/edit/{id}',[StudentController::class,'edit'])->name('edit');
 Route::put('/edit/{id}',[StudentController::class,'update'])->name('update');
 Route::get('/delete/{id}',[StudentController::class,'destroy'])->name('destroy');
 
-//Pdf route
-Route::get('/admit',[PdfController::class,'pdfView'])->name('pdfView');
 
-// Route::get('/download',[PdfController::class,'test'])->name('test'); 
+//Route::get('/admit',[PdfController::class,'pdfView'])->name('pdfView');
 
-// Route::get('/', function () {
-//     return view('hhh');
-// }); 
-//Route::get('/admit',[FirstController::class,'about'])->name('about.page');
-
-//Route::get('/admit',[PdfController::class,'pdfGenereation'])->name('pdfGenereation');
+Route::get('/admit',[PdfController::class,'pdfGenereation'])->name('pdfGenereation');

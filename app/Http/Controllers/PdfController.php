@@ -10,8 +10,4 @@ class PdfController extends Controller
     {
         return view('admit');
     }
-    public function test()
-    {
-        return view('download');
-    }
 }

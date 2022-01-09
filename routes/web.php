@@ -31,7 +31,13 @@ Route::put('/edit/{id}',[StudentController::class,'update'])->name('update');
 Route::get('/delete/{id}',[StudentController::class,'destroy'])->name('destroy');
 
 //Pdf route
-Route::get('/admit',[StudentController::class,'pdfView'])->name('pdfView');
+Route::get('/admit',[PdfController::class,'pdfView'])->name('pdfView');
+
+// Route::get('/download',[PdfController::class,'test'])->name('test'); 
+
+// Route::get('/', function () {
+//     return view('hhh');
+// }); 
 //Route::get('/admit',[FirstController::class,'about'])->name('about.page');
 
 //Route::get('/admit',[PdfController::class,'pdfGenereation'])->name('pdfGenereation');

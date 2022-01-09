@@ -7,10 +7,13 @@
     "require": {
         "php": "^7.3|^8.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "barryvdh/laravel-dompdf": "^0.9.0",
         "dompdf/dompdf": "^1.1",
 =======
 >>>>>>> choose-subject
+=======
+>>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.75",
@@ -22,9 +25,12 @@
         "fakerphp/faker": "^1.9.1",
         "laravel/sail": "^1.0.1",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         "laravel/ui": "^3.4",
 >>>>>>> choose-subject
+=======
+>>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^5.10",
         "phpunit/phpunit": "^9.5.10"

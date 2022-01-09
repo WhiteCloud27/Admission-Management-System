@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 require('./bootstrap');
 =======
 /**
@@ -34,3 +35,6 @@ const app = new Vue({
     el: '#app',
 });
 >>>>>>> choose-subject
+=======
+require('./bootstrap');
+>>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee

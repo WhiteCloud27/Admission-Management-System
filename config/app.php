@@ -175,10 +175,14 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 <<<<<<< HEAD
+<<<<<<< HEAD
         Barryvdh\DomPDF\ServiceProvider::class,
 =======
 
 >>>>>>> choose-subject
+=======
+
+>>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
     ],
 
     /*
@@ -234,9 +238,12 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 <<<<<<< HEAD
+<<<<<<< HEAD
         'PDF' => Barryvdh\DomPDF\Facades::class,
 =======
 >>>>>>> choose-subject
+=======
+>>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
 
     ],
 

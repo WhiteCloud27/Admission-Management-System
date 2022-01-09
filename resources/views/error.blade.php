@@ -1,0 +1,1 @@
+<h1>HSC registration is not same with SSC registration</h1>

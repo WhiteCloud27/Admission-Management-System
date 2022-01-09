@@ -11,10 +11,14 @@
     },
     "devDependencies": {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
         "axios": "^0.21",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
         "postcss": "^8.1.14"
+<<<<<<< HEAD
 =======
         "@popperjs/core": "^2.10.2",
         "axios": "^0.21",
@@ -29,5 +33,7 @@
         "vue-loader": "^15.9.7",
         "vue-template-compiler": "^2.6.12"
 >>>>>>> choose-subject
+=======
+>>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
     }
 }

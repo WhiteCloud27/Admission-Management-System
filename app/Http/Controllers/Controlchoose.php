@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\Facades\URL;
 
-class Controlchoose extends Controller
+class ControlChoose extends Controller
 {
     public function choose()
     {

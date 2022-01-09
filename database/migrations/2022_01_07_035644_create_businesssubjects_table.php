@@ -13,10 +13,11 @@ class CreateBusinesssubjectsTable extends Migration
      */
     public function up()
     {
-        Schema::create('businesssubjects', function (Blueprint $table) {
-            $table->increments('subid');
-            $table->string('name',100)->nullable;
-            $table->timestamps();
+        Schema::create('businesssubjects', function (Blueprint $table) 
+        {
+            $table -> increments('subid');
+            $table -> string('name',100)->nullable;
+            $table -> timestamps();
         });
     }
 

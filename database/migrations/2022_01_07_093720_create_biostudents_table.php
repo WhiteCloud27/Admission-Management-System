@@ -13,12 +13,13 @@ class CreateBiostudentsTable extends Migration
      */
     public function up()
     {
-        Schema::create('biostudents', function (Blueprint $table) {
-            $table->increments('stuid');
-            $table->string('fname',100)->nullable;
-            $table->string('lname',100)->nullable;
-            $table->integer('roll')->nullable;
-            $table->timestamps();
+        Schema::create('biostudents', function (Blueprint $table) 
+        {
+            $table ->  increments('stuid');
+            $table ->  string('fname',100) -> nullable;
+            $table ->  string('lname',100) -> nullable;
+            $table ->  integer('roll') -> nullable;
+            $table ->  timestamps();
         });
     }
 

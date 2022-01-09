@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Controlchoose;
+use App\Http\Controllers\ControlChoose;
 use App\Http\Controllers\ControlSubmit;
 use App\Http\Controllers\ConfirmSubmission;
 use Illuminate\Http\Request;
@@ -17,7 +17,7 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::match(['get','post'],'/choosesubject',[Controlchoose::class,'choose']);
+Route::match(['get','post'],'/choosesubject',[ControlChoose::class,'choose']);
 
 Route::match(['get','post'],'/done/{faculty}',[ConfirmSubmission::class,'done'])->name('done');
 

@@ -13,10 +13,11 @@ class CreateMathsubjectsTable extends Migration
      */
     public function up()
     {
-        Schema::create('mathsubjects', function (Blueprint $table) {
-            $table->increments('subid');
-            $table->string('name',100)->nullable;
-            $table->timestamps();
+        Schema::create('mathsubjects', function (Blueprint $table)
+        {
+            $table -> increments('subid');
+            $table -> string('name',100) -> nullable;
+            $table -> timestamps();
         });
     }
 

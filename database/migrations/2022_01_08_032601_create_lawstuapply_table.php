@@ -14,9 +14,9 @@ class CreateLawstuapplyTable extends Migration
     public function up()
     {
         Schema::create('lawstuapply', function (Blueprint $table) {
-            $table->increments('applstuid');
-            $table->integer('roll')->nullable;
-            $table->timestamps();
+            $table -> increments('applstuid');
+            $table -> integer('roll') -> nullable;
+            $table -> timestamps();
         });
     }
 

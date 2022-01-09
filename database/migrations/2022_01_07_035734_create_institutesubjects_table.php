@@ -13,10 +13,11 @@ class CreateInstitutesubjectsTable extends Migration
      */
     public function up()
     {
-        Schema::create('institutesubjects', function (Blueprint $table) {
-            $table->increments('subid');
-            $table->string('name',100)->nullable;
-            $table->timestamps();
+        Schema::create('institutesubjects', function (Blueprint $table) 
+        {
+            $table -> increments('subid');
+            $table -> string('name',100) -> nullable;
+            $table -> timestamps();
         });
     }
 

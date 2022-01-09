@@ -13,10 +13,11 @@ class CreateBiosubjectsTable extends Migration
      */
     public function up()
     {
-        Schema::create('biosubjects', function (Blueprint $table) {
-            $table->increments('subid');
-            $table->string('name',100)->nullable;
-            $table->timestamps();
+        Schema::create('biosubjects', function (Blueprint $table) 
+        {
+            $table -> increments('subid');
+            $table -> string('name',100)->nullable;
+            $table -> timestamps();
         });
     }
 

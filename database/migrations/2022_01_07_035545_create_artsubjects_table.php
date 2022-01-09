@@ -13,10 +13,11 @@ class CreateArtsubjectsTable extends Migration
      */
     public function up()
     {
-        Schema::create('artsubjects', function (Blueprint $table) {
-            $table->increments('subid');
-            $table->string('name',100)->nullable;
-            $table->timestamps();
+        Schema::create('artsubjects', function (Blueprint $table) 
+        {
+            $table -> increments('subid');
+            $table -> string('name',100) -> nullable;
+            $table -> timestamps();
         });
     }
 

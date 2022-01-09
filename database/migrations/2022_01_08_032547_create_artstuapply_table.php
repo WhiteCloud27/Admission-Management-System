@@ -14,9 +14,9 @@ class CreateArtstuapplyTable extends Migration
     public function up()
     {
         Schema::create('artstuapply', function (Blueprint $table) {
-            $table->increments('applstuid');
-            $table->integer('roll')->nullable;
-            $table->timestamps();
+            $table -> increments('applstuid');
+            $table -> integer('roll') -> nullable;
+            $table -> timestamps();
         });
     }
 

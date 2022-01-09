@@ -2,7 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-<<<<<<< HEAD
 use App\Http\Controllers\FirstController;
 use App\Http\Controllers\StudentController;
 use App\Http\Controllers\PdfController;
@@ -13,6 +12,8 @@ use App\Http\Controllers\ConfirmSubmission;
 use Illuminate\Http\Request;
 
 use App\Http\Controllers\UsersController;
+use App\Http\Controllers\PageController;
+use App\Http\Controllers\FaqController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,9 +26,8 @@ use App\Http\Controllers\UsersController;
 |
 */
 
-
 Route::get('/', function () {
-    return view('template');
+    return view('index');
 });
 
 Route::get('/dashboard',[FirstController::class,'dashboard']);
@@ -59,8 +59,6 @@ Auth::routes();
 Route::post("users",[UsersController::class, 'getData']);
 Route::view("/","users");
 Route::view("faq","faqs");
-=======
-use App\Http\Controllers\FaqController;
 
 
 Route::post('AdminForm',[FaqController::class,'create']);
@@ -71,6 +69,9 @@ Route::view("/Admin","AdminForm");
 
 
 
->>>>>>> FAQ
 
 
+Route::get('/uploadpage',[PageController::class,'uploadpage']);
+//Route::get('/uploadpage', [App\Http\Controllers\PageController::class, 'index'])->name('uploadpage');
+//Route::get('/uploadpage', [PageController::class, 'uploadpage']);
+//Route::get('/photos/popular', [PhotoController::class, 'popular']);

@@ -1,4 +1,4 @@
-const mix = require('laravel-mix');
+let mix = require('laravel-mix');
 
 /*
  |--------------------------------------------------------------------------
@@ -6,6 +6,7 @@ const mix = require('laravel-mix');
  |--------------------------------------------------------------------------
  |
  | Mix provides a clean, fluent API for defining some Webpack build steps
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19,10 +20,14 @@ const mix = require('laravel-mix');
 =======
  | for your Laravel applications. By default, we are compiling the CSS
 >>>>>>> FAQ
+=======
+ | for your Laravel application. By default, we are compiling the Sass
+>>>>>>> 94f4b793b83c2f06a768365f4550f0df74d37fbb
  | file for the application as well as bundling up all the JS files.
  |
  */
 
+<<<<<<< HEAD
 mix.js('resources/js/app.js', 'public/js')
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44,3 +49,7 @@ mix.js('resources/js/app.js', 'public/js')
         //
     ]);
 >>>>>>> FAQ
+=======
+mix.js('resources/assets/js/app.js', 'public/js')
+   .sass('resources/assets/sass/app.scss', 'public/css');
+>>>>>>> 94f4b793b83c2f06a768365f4550f0df74d37fbb

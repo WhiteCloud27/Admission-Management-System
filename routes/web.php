@@ -8,7 +8,8 @@ use App\Http\Controllers\FaqController;
 Route::post('AdminForm',[FaqController::class,'create']);
 Route::get('/Faq',[FaqController::class,'index'])->name('index');
 
-Route::view("/","AdminForm");
+Route::view("/Admin","AdminForm");
+
 
 
 

@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-<<<<<<< HEAD
 
 use App\Http\Controllers\FirstController;
 use App\Http\Controllers\StudentController;
@@ -12,9 +11,7 @@ use App\Http\Controllers\ControlSubmit;
 use App\Http\Controllers\ConfirmSubmission;
 use Illuminate\Http\Request;
 
-=======
 use App\Http\Controllers\UsersController;
->>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
 
 /*
 |--------------------------------------------------------------------------
@@ -28,7 +25,6 @@ use App\Http\Controllers\UsersController;
 */
 
 
-<<<<<<< HEAD
 Route::get('/', function () {
     return view('template');
 });
@@ -58,10 +54,9 @@ Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-=======
+
 Route::post("users",[UsersController::class, 'getData']);
 Route::view("/","users");
 Route::view("faq","faqs");
 
 
->>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee

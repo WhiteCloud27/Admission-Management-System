@@ -8,7 +8,7 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
- 
+
   <style>
     .txt-center {
       text-align: center;
@@ -79,10 +79,13 @@
             </div>
           </div>
         </div>
+
+        @foreach($students as $stu)
+
         <div class="BoxC border- padding mar-bot">
           <div class="row">
             <div class="col-sm-6">
-              <h5>Exam Roll No : 9910101</h5>
+              <h5>Exam Roll No : {{$stu->examroll}}</h5>
             </div>
           </div>
         </div>
@@ -92,32 +95,33 @@
               <table class="table table-bordered">
                 <tbody>
                   <tr>
-                    <td><b>Application ID : 9910101</b></td>
-                    <td><b>Unit: </b> B</td>
+                    <td><b>Application ID : {{$stu->examroll}}</b></td>
+                    <td><b>Unit: </b> {{$stu->unit}}</td>
                   </tr>
                   <tr>
-                    <td><b>Student Name: </b>Mahim</td>
+                    <td><b>Student Name: </b>{{$stu->name}}</td>
                     <td><b>Sex: </b>Male</td>
                   </tr>
                   <tr>
-                    <td><b>Father's Name: </b>Rezaul</td>
+                    <td><b>Father's Name: </b>{{$stu->fathersname}}</td>
                     <td><b>Date of Birth: </b>02 Jul 2019</td>
                   </tr>
                   <tr>
-                    <td><b>Mother's Name: </b>Khanam</td>
+                    <td><b>Mother's Name: </b>{{$stu->mothersname}}</td>
                     <td><b>Session: </b>2022-2023</td>
                   </tr>
                 </tbody>
               </table>
             </div>
+            @endforeach
             <div class="col-sm-2 txt-center">
               <table class="table table-bordered">
                 <tbody>
                   <tr>
-                    <th scope="row txt-center"><img src="\public\images\1602105262355.jpg" width="180px" height="180px" /></th>
+                    <th scope="row txt-center"><img src="\public\images\1602105262355.jpg" width="130px" height="140px" /></th>
                   </tr>
                   <tr>
-                    <th scope="row txt-center"><img src="http://peoplehelp.in/mewaruni/images/signature.png" /></th>
+                    <th scope="row txt-center"><img src="" /></th>
                   </tr>
                 </tbody>
               </table>
@@ -136,17 +140,20 @@
 
           <h5 ALIGN="center">Rules for the candidate</h5>
           <div class="ml-2">
-            <p>1.Must bring the admit card on the exam day. Must bring the admit card on the exam day.<br>
-              2.Must bring the admit card on the exam day. Must bring the admit card on the exam day.<br>
-              2.Must bring the admit card on the exam day. Must bring the admit card on the exam day.<br>
-              2.Must bring the admit card on the exam day. Must bring the admit card on the exam day.<br>
-              2.Must bring the admit card on the exam day. Must bring the admit card on the exam day.<br>
-              2.Must bring the admit card on the exam day. Must bring the admit card on the exam day.<br>
-              2.Must bring the admit card on the exam day. Must bring the admit card on the exam day.<br>
-              2.Must bring the admit card on the exam day. Must bring the admit card on the exam day.<br>
-              2.Must bring the admit card on the exam day. Must bring the admit card on the exam day.<br>
-              2.Must bring the admit card on the exam day. Must bring the admit card on the exam day.<br>
-              2.Must bring the admit card on the exam day. Must bring the admit card on the exam day.<br>
+            <p>
+              1.Candidates must bring the Admit Card and show it to the invigilator(s) on duty.<br>
+
+              2.Candidates are NOT ALLOWED to bring mobile phone/calculator/digital watch or similar electronic devices in the exam hall.<br>
+
+              3.Photograph contained in this admit card will be verified against the original submitted application form.<br>
+
+              4.Candidates must sit in the examination hall at least 30 minutes prior to all examination. Candidates will not be allowed to leave the examination hall before
+              the termination of the test<br>
+
+              5.Candidates should bring two Black Ballpoint Pens. Use of pencil is not allowed.<br>
+
+              6.Applicant will be expelled if the general instructions are not followed or if found guitty of misconduct, misbehavior or adopting unfair means. <br>
+
             </p>
           </div>
 

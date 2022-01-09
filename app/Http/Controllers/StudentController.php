@@ -15,7 +15,7 @@ class StudentController extends Controller
     public function index()
     {
         $students = DB::table('students')->get();
-        return view('form', ['students' => $students]);
+        return view('admin.form', ['students' => $students]);
     }
 
     /**
@@ -67,7 +67,7 @@ class StudentController extends Controller
     public function edit($id)
     {
         $student = DB::table('students')->find($id);
-        return view('editform', ['student' => $student]);
+        return view('admin.editform', ['student' => $student]);
     }
 
     /**
@@ -100,8 +100,28 @@ class StudentController extends Controller
     {
         DB::table('students')->where('id',$id)->delete();
 
-
         return redirect(route('index'))->with('status', 'Data deleted succesfully.');
 
     }
+
+
+    // Admit  part
+    public function pdfView($id)
+    {
+        $students = DB::table('students')->where ('id', $id)->get();
+        return view('admit', ['students' => $students]);
+        
+    }
+    public function downloadView()
+    {
+        return view('admitdownload');
+        
+    }
+    // public function downloadView($id)
+    // {
+    //     $student = DB::table('students')->find($id);
+    //     return view('admitdownload', ['student' => $student]);
+    // }
+
+
 }

@@ -16,14 +16,8 @@ use App\Http\Controllers\PdfController;
 |
 */
 
-Route::get('/', function () {
-    return view('template');
-});
 
-Route::get('/dashboard',[FirstController::class,'dashboard']);
-Route::get('/JU/about',[FirstController::class,'about'])->name('about.page');
-
-
+//Admit Card Admin panel route
 Route::get('/form',[StudentController::class,'index'])->name('index');
 Route::post('/form',[StudentController::class,'create'])->name('create');
 Route::get('/edit/{id}',[StudentController::class,'edit'])->name('edit');
@@ -31,6 +25,16 @@ Route::put('/edit/{id}',[StudentController::class,'update'])->name('update');
 Route::get('/delete/{id}',[StudentController::class,'destroy'])->name('destroy');
 
 
-//Route::get('/admit',[PdfController::class,'pdfView'])->name('pdfView');
+//Admit Card User side route
+Route::get('/', function () {
+    return view('template');
+});
 
-Route::get('/admit',[PdfController::class,'pdfGenereation'])->name('pdfGenereation');
+Route::get('/JU/about',[FirstController::class,'about'])->name('about.page');
+
+
+Route::get('/admit/{id}',[StudentController::class,'pdfView'])->name('pdfView');
+
+Route::get('/admitdownload',[StudentController::class,'downloadView'])->name('downloadView');
+
+//Route::get('/admit',[PdfController::class,'pdfGenereation'])->name('pdfGenereation');

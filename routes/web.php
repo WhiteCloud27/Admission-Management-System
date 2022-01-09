@@ -1,9 +1,16 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+
 use App\Http\Controllers\FirstController;
 use App\Http\Controllers\StudentController;
 use App\Http\Controllers\PdfController;
+
+use App\Http\Controllers\ControlChoose;
+use App\Http\Controllers\ControlSubmit;
+use App\Http\Controllers\ConfirmSubmission;
+use Illuminate\Http\Request;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -15,6 +22,7 @@ use App\Http\Controllers\PdfController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 
 Route::get('/', function () {
     return view('template');
@@ -34,3 +42,14 @@ Route::get('/delete/{id}',[StudentController::class,'destroy'])->name('destroy')
 //Route::get('/admit',[PdfController::class,'pdfView'])->name('pdfView');
 
 Route::get('/admit',[PdfController::class,'pdfGenereation'])->name('pdfGenereation');
+
+Route::match(['get','post'],'/choosesubject',[ControlChoose::class,'choose']);
+
+Route::match(['get','post'],'/done/{faculty}',[ConfirmSubmission::class,'done'])->name('done');
+
+Route::match(['get','post'],'/choose/submit',[ControlSubmit::class,'submit'])->name('choose.submit');
+
+Auth::routes();
+
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+

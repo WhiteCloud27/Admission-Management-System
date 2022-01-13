@@ -26,6 +26,7 @@ use App\Http\Controllers\FaqController;
 |
 */
 
+<<<<<<< HEAD
 Route::get('/', function () {
     return view('index');
 });
@@ -33,7 +34,10 @@ Route::get('/', function () {
 Route::get('/dashboard',[FirstController::class,'dashboard']);
 Route::get('/JU/about',[FirstController::class,'about'])->name('about.page');
 
+=======
+>>>>>>> AdmitCard
 
+//Admit Card Admin panel route
 Route::get('/form',[StudentController::class,'index'])->name('index');
 Route::post('/form',[StudentController::class,'create'])->name('create');
 Route::get('/edit/{id}',[StudentController::class,'edit'])->name('edit');
@@ -41,8 +45,12 @@ Route::put('/edit/{id}',[StudentController::class,'update'])->name('update');
 Route::get('/delete/{id}',[StudentController::class,'destroy'])->name('destroy');
 
 
-//Route::get('/admit',[PdfController::class,'pdfView'])->name('pdfView');
+//Admit Card User side route
+Route::get('/', function () {
+    return view('template');
+});
 
+<<<<<<< HEAD
 Route::get('/admit',[PdfController::class,'pdfGenereation'])->name('pdfGenereation');
 
 Route::match(['get','post'],'/choosesubject',[ControlChoose::class,'choose']);
@@ -75,3 +83,13 @@ Route::get('/uploadpage',[PageController::class,'uploadpage']);
 //Route::get('/uploadpage', [App\Http\Controllers\PageController::class, 'index'])->name('uploadpage');
 //Route::get('/uploadpage', [PageController::class, 'uploadpage']);
 //Route::get('/photos/popular', [PhotoController::class, 'popular']);
+=======
+Route::get('/JU/about',[FirstController::class,'about'])->name('about.page');
+
+
+Route::get('/admit/{id}',[StudentController::class,'pdfView'])->name('pdfView');
+
+Route::get('/admitdownload',[StudentController::class,'downloadView'])->name('downloadView');
+
+//Route::get('/admit',[PdfController::class,'pdfGenereation'])->name('pdfGenereation');
+>>>>>>> AdmitCard

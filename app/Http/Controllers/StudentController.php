@@ -20,10 +20,14 @@ class StudentController extends Controller
     {
 <<<<<<< HEAD
         $students = DB::table('students')->get();
+<<<<<<< HEAD
         return view('form', ['students' => $students]);
 =======
         //
 >>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
+=======
+        return view('admin.form', ['students' => $students]);
+>>>>>>> AdmitCard
     }
 
     /**
@@ -155,10 +159,14 @@ class StudentController extends Controller
     {
 <<<<<<< HEAD
         $student = DB::table('students')->find($id);
+<<<<<<< HEAD
         return view('editform', ['student' => $student]);
 =======
         //
 >>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
+=======
+        return view('admin.editform', ['student' => $student]);
+>>>>>>> AdmitCard
     }
 
     /**
@@ -196,11 +204,31 @@ class StudentController extends Controller
 <<<<<<< HEAD
         DB::table('students')->where('id',$id)->delete();
 
-
         return redirect(route('index'))->with('status', 'Data deleted succesfully.');
 
 =======
         //
 >>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
     }
+
+
+    // Admit  part
+    public function pdfView($id)
+    {
+        $students = DB::table('students')->where ('id', $id)->get();
+        return view('admit', ['students' => $students]);
+        
+    }
+    public function downloadView()
+    {
+        return view('admitdownload');
+        
+    }
+    // public function downloadView($id)
+    // {
+    //     $student = DB::table('students')->find($id);
+    //     return view('admitdownload', ['student' => $student]);
+    // }
+
+
 }

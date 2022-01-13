@@ -6673,6 +6673,7 @@ Did you mean one of these?
 #43 {main}
 "} 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [2022-01-09 03:14:16] production.ERROR: No application encryption key has been specified. {"exception":"[object] (Illuminate\\Encryption\\MissingAppKeyException(code: 0): No application encryption key has been specified. at C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php:101)
 [stacktrace]
 #0 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(263): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(NULL)
@@ -8879,6 +8880,8 @@ Stack trace:
 #27 {main}  
 >>>>>>> 94f4b793b83c2f06a768365f4550f0df74d37fbb
 =======
+=======
+>>>>>>> AdmitCard
 [2022-01-09 14:38:20] local.ERROR: Non-static method Barryvdh\DomPDF\PDF::loadView() cannot be called statically {"exception":"[object] (Error(code: 0): Non-static method Barryvdh\\DomPDF\\PDF::loadView() cannot be called statically at C:\\XAMPP\\htdocs\\LaravelProject\\Admission-Management-System\\app\\Http\\Controllers\\PdfController.php:15)
 [stacktrace]
 #0 C:\\XAMPP\\htdocs\\LaravelProject\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\PdfController->pdfGenereation()
@@ -10942,4 +10945,7 @@ Stack trace:
 #53 C:\\XAMPP\\htdocs\\LaravelProject\\Admission-Management-System\\server.php(21): require_once('C:\\\\XAMPP\\\\htdocs...')
 #54 {main}
 "} 
+<<<<<<< HEAD
+>>>>>>> AdmitCard
+=======
 >>>>>>> AdmitCard

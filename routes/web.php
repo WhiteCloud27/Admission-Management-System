@@ -27,6 +27,7 @@ use App\Http\Controllers\FaqController;
 */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Route::get('/', function () {
     return view('index');
 });
@@ -34,6 +35,8 @@ Route::get('/', function () {
 Route::get('/dashboard',[FirstController::class,'dashboard']);
 Route::get('/JU/about',[FirstController::class,'about'])->name('about.page');
 
+=======
+>>>>>>> AdmitCard
 =======
 >>>>>>> AdmitCard
 
@@ -50,6 +53,7 @@ Route::get('/', function () {
     return view('template');
 });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Route::get('/admit',[PdfController::class,'pdfGenereation'])->name('pdfGenereation');
 
@@ -84,6 +88,8 @@ Route::get('/uploadpage',[PageController::class,'uploadpage']);
 //Route::get('/uploadpage', [PageController::class, 'uploadpage']);
 //Route::get('/photos/popular', [PhotoController::class, 'popular']);
 =======
+=======
+>>>>>>> AdmitCard
 Route::get('/JU/about',[FirstController::class,'about'])->name('about.page');
 
 
@@ -92,4 +98,7 @@ Route::get('/admit/{id}',[StudentController::class,'pdfView'])->name('pdfView');
 Route::get('/admitdownload',[StudentController::class,'downloadView'])->name('downloadView');
 
 //Route::get('/admit',[PdfController::class,'pdfGenereation'])->name('pdfGenereation');
+<<<<<<< HEAD
+>>>>>>> AdmitCard
+=======
 >>>>>>> AdmitCard

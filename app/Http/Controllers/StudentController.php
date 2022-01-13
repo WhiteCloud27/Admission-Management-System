@@ -21,10 +21,14 @@ class StudentController extends Controller
 <<<<<<< HEAD
         $students = DB::table('students')->get();
 <<<<<<< HEAD
+<<<<<<< HEAD
         return view('form', ['students' => $students]);
 =======
         //
 >>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
+=======
+        return view('admin.form', ['students' => $students]);
+>>>>>>> AdmitCard
 =======
         return view('admin.form', ['students' => $students]);
 >>>>>>> AdmitCard
@@ -160,10 +164,14 @@ class StudentController extends Controller
 <<<<<<< HEAD
         $student = DB::table('students')->find($id);
 <<<<<<< HEAD
+<<<<<<< HEAD
         return view('editform', ['student' => $student]);
 =======
         //
 >>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
+=======
+        return view('admin.editform', ['student' => $student]);
+>>>>>>> AdmitCard
 =======
         return view('admin.editform', ['student' => $student]);
 >>>>>>> AdmitCard

@@ -31,6 +31,9 @@ use App\Http\Controllers\FaqController;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 14d9506e97c2587ec1861a4f65518477ef9fe83f
 =======
 >>>>>>> 14d9506e97c2587ec1861a4f65518477ef9fe83f
 Route::get('/', function () {
@@ -41,10 +44,13 @@ Route::get('/dashboard',[FirstController::class,'dashboard']);
 Route::get('/JU/about',[FirstController::class,'about'])->name('about.page');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> AdmitCard
 =======
 >>>>>>> AdmitCard
+=======
+>>>>>>> 14d9506e97c2587ec1861a4f65518477ef9fe83f
 =======
 >>>>>>> 14d9506e97c2587ec1861a4f65518477ef9fe83f
 
@@ -60,6 +66,9 @@ Route::get('/delete/{id}',[StudentController::class,'destroy'])->name('destroy')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 14d9506e97c2587ec1861a4f65518477ef9fe83f
 =======
 >>>>>>> 14d9506e97c2587ec1861a4f65518477ef9fe83f
 Route::get('/admit',[PdfController::class,'pdfGenereation'])->name('pdfGenereation');
@@ -94,6 +103,7 @@ Route::get('/uploadpage',[PageController::class,'uploadpage']);
 //Route::get('/uploadpage', [App\Http\Controllers\PageController::class, 'index'])->name('uploadpage');
 //Route::get('/uploadpage', [PageController::class, 'uploadpage']);
 <<<<<<< HEAD
+<<<<<<< HEAD
 //Route::get('/photos/popular', [PhotoController::class, 'popular']);
 =======
 =======
@@ -110,6 +120,9 @@ Route::get('/admitdownload',[StudentController::class,'downloadView'])->name('do
 >>>>>>> AdmitCard
 =======
 >>>>>>> AdmitCard
+=======
+//Route::get('/photos/popular', [PhotoController::class, 'popular']);
+>>>>>>> 14d9506e97c2587ec1861a4f65518477ef9fe83f
 =======
 //Route::get('/photos/popular', [PhotoController::class, 'popular']);
 >>>>>>> 14d9506e97c2587ec1861a4f65518477ef9fe83f

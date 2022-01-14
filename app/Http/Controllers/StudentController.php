@@ -3,11 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-<<<<<<< HEAD
 use Illuminate\Support\Facades\DB;
-=======
+
 use App\Models\Member;
->>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
 
 class StudentController extends Controller
 {
@@ -18,16 +16,15 @@ class StudentController extends Controller
      */
     public function index()
     {
-<<<<<<< HEAD
+
         $students = DB::table('students')->get();
-<<<<<<< HEAD
+
         return view('form', ['students' => $students]);
-=======
+
         //
->>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
-=======
+
         return view('admin.form', ['students' => $students]);
->>>>>>> AdmitCard
+        //AdmitCard
     }
 
     /**
@@ -35,7 +32,7 @@ class StudentController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-<<<<<<< HEAD
+
     public function create(Request $request)
     {
         DB::table('students')->insert([
@@ -47,7 +44,8 @@ class StudentController extends Controller
 
         ]);
         return redirect(route('index'))->with('status', 'Data added succesfully.');
-=======
+    }
+    
     public function create(Request $req)
     {
         //
@@ -123,8 +121,7 @@ class StudentController extends Controller
        {
         return view('error');
        }
-     
->>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
+
     }
 
     /**
@@ -157,16 +154,15 @@ class StudentController extends Controller
      */
     public function edit($id)
     {
-<<<<<<< HEAD
+
         $student = DB::table('students')->find($id);
-<<<<<<< HEAD
+
         return view('editform', ['student' => $student]);
-=======
+
         //
->>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
-=======
+
         return view('admin.editform', ['student' => $student]);
->>>>>>> AdmitCard
+
     }
 
     /**
@@ -178,7 +174,7 @@ class StudentController extends Controller
      */
     public function update(Request $request, $id)
     {
-<<<<<<< HEAD
+
         DB::table('students')->where('id', $id)->update([
             'name' => $request->name,
             'examroll' => $request->examRoll,
@@ -188,9 +184,7 @@ class StudentController extends Controller
         ]);
         return redirect(route('index'))->with('status', 'Data updated succesfully.');
 
-=======
-        //
->>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
+
     }
 
     /**
@@ -201,14 +195,12 @@ class StudentController extends Controller
      */
     public function destroy($id)
     {
-<<<<<<< HEAD
+
         DB::table('students')->where('id',$id)->delete();
 
         return redirect(route('index'))->with('status', 'Data deleted succesfully.');
 
-=======
-        //
->>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
+
     }
 
 

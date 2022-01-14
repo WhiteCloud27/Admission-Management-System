@@ -3,11 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-<<<<<<< HEAD
 use Illuminate\Support\Facades\DB;
-=======
+
 use App\Models\Member;
->>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
 
 class StudentController extends Controller
 {
@@ -16,46 +14,11 @@ class StudentController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-<<<<<<< HEAD
-        $students = DB::table('students')->get();
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return view('form', ['students' => $students]);
-=======
-        //
->>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
-=======
-        return view('admin.form', ['students' => $students]);
->>>>>>> AdmitCard
-=======
-        return view('admin.form', ['students' => $students]);
->>>>>>> AdmitCard
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-<<<<<<< HEAD
-    public function create(Request $request)
-    {
-        DB::table('students')->insert([
-            'name' => $request->name,
-            'examroll' => $request->examRoll,
-            'fathersname' => $request->fathersName,
-            'mothersname' => $request->mothersName,
-            'unit' => $request->unit,
-
-        ]);
-        return redirect(route('index'))->with('status', 'Data added succesfully.');
-=======
+    
     public function create(Request $req)
     {
         //
-         $member=new Member;
+        $member = new Member;
         $member->firstName=$req->firstName;
         $member->lastName=$req->lastName;
         $member->fatherName=$req->fatherName;
@@ -127,8 +90,7 @@ class StudentController extends Controller
        {
         return view('error');
        }
-     
->>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
+
     }
 
     /**
@@ -161,82 +123,8 @@ class StudentController extends Controller
      */
     public function edit($id)
     {
-<<<<<<< HEAD
-        $student = DB::table('students')->find($id);
-<<<<<<< HEAD
-<<<<<<< HEAD
-        return view('editform', ['student' => $student]);
-=======
         //
->>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
-=======
-        return view('admin.editform', ['student' => $student]);
->>>>>>> AdmitCard
-=======
-        return view('admin.editform', ['student' => $student]);
->>>>>>> AdmitCard
     }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-<<<<<<< HEAD
-        DB::table('students')->where('id', $id)->update([
-            'name' => $request->name,
-            'examroll' => $request->examRoll,
-            'fathersname' => $request->fathersName,
-            'mothersname' => $request->mothersName,
-            'unit' => $request->unit,
-        ]);
-        return redirect(route('index'))->with('status', 'Data updated succesfully.');
-
-=======
-        //
->>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-<<<<<<< HEAD
-        DB::table('students')->where('id',$id)->delete();
-
-        return redirect(route('index'))->with('status', 'Data deleted succesfully.');
-
-=======
-        //
->>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
-    }
-
-
-    // Admit  part
-    public function pdfView($id)
-    {
-        $students = DB::table('students')->where ('id', $id)->get();
-        return view('admit', ['students' => $students]);
-        
-    }
-    public function downloadView()
-    {
-        return view('admitdownload');
-        
-    }
-    // public function downloadView($id)
-    // {
-    //     $student = DB::table('students')->find($id);
-    //     return view('admitdownload', ['student' => $student]);
-    // }
 
 
 }

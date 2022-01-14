@@ -11,6 +11,8 @@ use App\Http\Controllers\ControlSubmit;
 use App\Http\Controllers\ConfirmSubmission;
 use Illuminate\Http\Request;
 
+use App\Http\Controllers\GetAdmit;
+
 use App\Http\Controllers\UsersController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\FaqController;
@@ -28,6 +30,9 @@ use App\Http\Controllers\FaqController;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 14d9506e97c2587ec1861a4f65518477ef9fe83f
 Route::get('/', function () {
     return view('index');
 });
@@ -35,12 +40,14 @@ Route::get('/', function () {
 Route::get('/dashboard',[FirstController::class,'dashboard']);
 Route::get('/JU/about',[FirstController::class,'about'])->name('about.page');
 
+<<<<<<< HEAD
 =======
 >>>>>>> AdmitCard
 =======
 >>>>>>> AdmitCard
+=======
+>>>>>>> 14d9506e97c2587ec1861a4f65518477ef9fe83f
 
-//Admit Card Admin panel route
 Route::get('/form',[StudentController::class,'index'])->name('index');
 Route::post('/form',[StudentController::class,'create'])->name('create');
 Route::get('/edit/{id}',[StudentController::class,'edit'])->name('edit');
@@ -48,13 +55,13 @@ Route::put('/edit/{id}',[StudentController::class,'update'])->name('update');
 Route::get('/delete/{id}',[StudentController::class,'destroy'])->name('destroy');
 
 
-//Admit Card User side route
-Route::get('/', function () {
-    return view('template');
-});
+//Route::get('/admit',[PdfController::class,'pdfView'])->name('pdfView');
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 14d9506e97c2587ec1861a4f65518477ef9fe83f
 Route::get('/admit',[PdfController::class,'pdfGenereation'])->name('pdfGenereation');
 
 Route::match(['get','post'],'/choosesubject',[ControlChoose::class,'choose']);
@@ -86,6 +93,7 @@ Route::view("/Admin","AdminForm");
 Route::get('/uploadpage',[PageController::class,'uploadpage']);
 //Route::get('/uploadpage', [App\Http\Controllers\PageController::class, 'index'])->name('uploadpage');
 //Route::get('/uploadpage', [PageController::class, 'uploadpage']);
+<<<<<<< HEAD
 //Route::get('/photos/popular', [PhotoController::class, 'popular']);
 =======
 =======
@@ -102,3 +110,6 @@ Route::get('/admitdownload',[StudentController::class,'downloadView'])->name('do
 >>>>>>> AdmitCard
 =======
 >>>>>>> AdmitCard
+=======
+//Route::get('/photos/popular', [PhotoController::class, 'popular']);
+>>>>>>> 14d9506e97c2587ec1861a4f65518477ef9fe83f

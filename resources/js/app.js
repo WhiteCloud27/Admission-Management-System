@@ -1,15 +1,9 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 require('./bootstrap');
-=======
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
-
-require('./bootstrap');
 
 window.Vue = require('vue').default;
 
@@ -35,10 +29,3 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 const app = new Vue({
     el: '#app',
 });
->>>>>>> choose-subject
-=======
-require('./bootstrap');
->>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
-=======
-require('./bootstrap');
->>>>>>> FAQ

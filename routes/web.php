@@ -11,6 +11,8 @@ use App\Http\Controllers\ControlSubmit;
 use App\Http\Controllers\ConfirmSubmission;
 use Illuminate\Http\Request;
 
+use App\Http\Controllers\GetAdmit;
+
 use App\Http\Controllers\UsersController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\FaqController;
@@ -50,6 +52,11 @@ Route::match(['get','post'],'/choosesubject',[ControlChoose::class,'choose']);
 Route::match(['get','post'],'/done/{faculty}',[ConfirmSubmission::class,'done'])->name('done');
 
 Route::match(['get','post'],'/choose/submit',[ControlSubmit::class,'submit'])->name('choose.submit');
+Route::match(['get','post'],'/getadmitform',function () 
+{
+    return view('getadmit.getadmit-layout');
+});
+Route::post('/getadmit',[GetAdmit::class,'admit'])->name('getadmit');
 
 Auth::routes();
 

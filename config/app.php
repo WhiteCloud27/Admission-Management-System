@@ -176,23 +176,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         Barryvdh\DomPDF\ServiceProvider::class,
-=======
 
->>>>>>> choose-subject
-=======
-
->>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
-=======
-
->>>>>>> FAQ
-=======
-
->>>>>>> 94f4b793b83c2f06a768365f4550f0df74d37fbb
     ],
 
     /*
@@ -241,19 +226,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        'PDF' => Barryvdh\DomPDF\Facades::class,
-=======
->>>>>>> choose-subject
-=======
->>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
-=======
->>>>>>> FAQ
-=======
->>>>>>> 94f4b793b83c2f06a768365f4550f0df74d37fbb
+
 
     ],
 

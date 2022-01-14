@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateMathstuapplyTable extends Migration
+class CreateBiostuapplyTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,10 @@ class CreateMathstuapplyTable extends Migration
      */
     public function up()
     {
-        Schema::create('mathstuapply', function (Blueprint $table) {
-            $table -> increments('applstuid');
-            $table -> integer('roll') -> nullable;
-            $table -> timestamps();
+        Schema::create('bio_stu_applies', function (Blueprint $table) {
+            $table->increments('applstuid');
+            $table->integer('roll')->nullable;
+            $table->timestamps();
         });
     }
 
@@ -27,6 +27,6 @@ class CreateMathstuapplyTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('mathstuapply');
+        Schema::dropIfExists('biostuapply');
     }
 }

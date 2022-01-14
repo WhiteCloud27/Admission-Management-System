@@ -1,32 +1,13 @@
 /node_modules
 /public/hot
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-/vendor
-=======
-/public/storage
 /storage/*.key
 /vendor
-.env
->>>>>>> 6cfd31f115c4c44bee760c3d25939175483471ee
-=======
-
-
-/vendor
-
->>>>>>> FAQ
 .env.backup
 .phpunit.result.cache
 docker-compose.override.yml
-=======
-
-/vendor
-/.idea
-/.vagrant
->>>>>>> 94f4b793b83c2f06a768365f4550f0df74d37fbb
 Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
-
+/.idea
+/.vscode

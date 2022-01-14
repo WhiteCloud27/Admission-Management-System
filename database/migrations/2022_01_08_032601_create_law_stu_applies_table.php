@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateSocialstuapplyTable extends Migration
+class CreateLawstuapplyTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,10 @@ class CreateSocialstuapplyTable extends Migration
      */
     public function up()
     {
-        Schema::create('socialstuapply', function (Blueprint $table) {
-            $table -> increments('applstuid');
-            $table -> integer('roll') -> nullable;
-            $table -> timestamps();
+        Schema::create('law_stu_applies', function (Blueprint $table) {
+            $table->increments('applstuid');
+            $table->integer('roll')->nullable;
+            $table->timestamps();
         });
     }
 
@@ -27,6 +27,6 @@ class CreateSocialstuapplyTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('socialstuapply');
+        Schema::dropIfExists('lawstuapply');
     }
 }

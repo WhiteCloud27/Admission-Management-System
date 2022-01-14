@@ -1,12 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 [2022-01-03 11:11:34] local.ERROR: View [welcome] not found. {"exception":"[object] (InvalidArgumentException(code: 0): View [welcome] not found. at C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
 [stacktrace]
 #0 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths('welcome', Array)
 #1 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(138): Illuminate\\View\\FileViewFinder->find('welcome')
 #2 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(932): Illuminate\\View\\Factory->make('welcome', Array, Array)
-#3 C:\\XAMPP\\htdocs\\LaravelProject\\project\outes\\web.php(17): view('welcome')
+#3 C:\\XAMPP\\htdocs\\LaravelProject\\project\
+outes\\web.php(17): view('welcome')
 #4 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(238): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #5 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(208): Illuminate\\Routing\\Route->runCallable()
 #6 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(695): Illuminate\\Routing\\Route->run()
@@ -57,7 +55,8 @@
 #0 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths('welcome', Array)
 #1 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(138): Illuminate\\View\\FileViewFinder->find('welcome')
 #2 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(932): Illuminate\\View\\Factory->make('welcome', Array, Array)
-#3 C:\\XAMPP\\htdocs\\LaravelProject\\project\outes\\web.php(17): view('welcome')
+#3 C:\\XAMPP\\htdocs\\LaravelProject\\project\
+outes\\web.php(17): view('welcome')
 #4 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(238): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #5 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(208): Illuminate\\Routing\\Route->runCallable()
 #6 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(695): Illuminate\\Routing\\Route->run()
@@ -108,7 +107,8 @@
 #0 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths('welcome', Array)
 #1 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(138): Illuminate\\View\\FileViewFinder->find('welcome')
 #2 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(932): Illuminate\\View\\Factory->make('welcome', Array, Array)
-#3 C:\\XAMPP\\htdocs\\LaravelProject\\project\outes\\web.php(17): view('welcome')
+#3 C:\\XAMPP\\htdocs\\LaravelProject\\project\
+outes\\web.php(17): view('welcome')
 #4 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(238): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #5 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(208): Illuminate\\Routing\\Route->runCallable()
 #6 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(695): Illuminate\\Routing\\Route->run()
@@ -159,7 +159,8 @@
 #0 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths('welcome', Array)
 #1 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(138): Illuminate\\View\\FileViewFinder->find('welcome')
 #2 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(932): Illuminate\\View\\Factory->make('welcome', Array, Array)
-#3 C:\\XAMPP\\htdocs\\LaravelProject\\project\outes\\web.php(17): view('welcome')
+#3 C:\\XAMPP\\htdocs\\LaravelProject\\project\
+outes\\web.php(17): view('welcome')
 #4 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(238): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #5 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(208): Illuminate\\Routing\\Route->runCallable()
 #6 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(695): Illuminate\\Routing\\Route->run()
@@ -222,7 +223,8 @@
 #0 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths('welcome', Array)
 #1 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(138): Illuminate\\View\\FileViewFinder->find('welcome')
 #2 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(932): Illuminate\\View\\Factory->make('welcome', Array, Array)
-#3 C:\\XAMPP\\htdocs\\LaravelProject\\project\outes\\web.php(17): view('welcome')
+#3 C:\\XAMPP\\htdocs\\LaravelProject\\project\
+outes\\web.php(17): view('welcome')
 #4 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(238): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #5 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(208): Illuminate\\Routing\\Route->runCallable()
 #6 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(695): Illuminate\\Routing\\Route->run()
@@ -268,11 +270,14 @@
 #46 C:\\XAMPP\\htdocs\\LaravelProject\\project\\server.php(21): require_once('C:\\\\XAMPP\\\\htdocs...')
 #47 {main}
 "} 
-[2022-01-04 19:26:48] local.ERROR: Call to undefined function to() (View: C:\XAMPP\htdocs\LaravelProject\project\resources\views\welcome.blade.php) {"view":{"view":"C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/welcome.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-1361830549 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#276</a><samp data-depth=1 class=sf-dump-expanded>
+[2022-01-04 19:26:48] local.ERROR: Call to undefined function to() (View: C:\XAMPP\htdocs\LaravelProject\project\resources\views\welcome.blade.php) {"view":{"view":"C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/welcome.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-1361830549 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#276</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
 </pre><script>Sfdump(\"sf-dump-1361830549\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
-"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Call to undefined function to() (View: C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views\\welcome.blade.php) at C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/welcome.blade.php:21)
+"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Call to undefined function to() (View: C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views\\welcome.blade.php) at C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/welcome.blade.php:21)
 [stacktrace]
 #0 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(107): require()
 #1 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
@@ -328,7 +333,6 @@
 #51 C:\\XAMPP\\htdocs\\LaravelProject\\project\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #52 C:\\XAMPP\\htdocs\\LaravelProject\\project\\server.php(21): require_once('C:\\\\XAMPP\\\\htdocs...')
 #53 {main}
-=======
 [2022-01-05 07:48:54] local.ERROR: exception 'InvalidArgumentException' with message 'View [index] not found.' in F:\xampp\htdocs\sepsyc\vendor\laravel\framework\src\Illuminate\View\FileViewFinder.php:137
 Stack trace:
 #0 F:\xampp\htdocs\sepsyc\vendor\laravel\framework\src\Illuminate\View\FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('index', Array)
@@ -2088,7 +2092,6 @@ Stack trace:
 #29 F:\xampp\htdocs\sepsyc\artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #30 {main}
 
-<<<<<<< HEAD
 [previous exception] [object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [/about.page] not defined. at C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:444)
 [stacktrace]
 #0 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(739): Illuminate\\Routing\\UrlGenerator->route('/about.page', Array, true)
@@ -2148,7 +2151,8 @@ Stack trace:
 #54 C:\\XAMPP\\htdocs\\LaravelProject\\project\\server.php(21): require_once('C:\\\\XAMPP\\\\htdocs...')
 #55 {main}
 "} 
-[2022-01-04 20:11:27] local.ERROR: syntax error, unexpected token "(", expecting identifier or variable or "{" or "$" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"(\", expecting identifier or variable or \"{\" or \"$\" at C:\\XAMPP\\htdocs\\LaravelProject\\project\outes\\web.php:21)
+[2022-01-04 20:11:27] local.ERROR: syntax error, unexpected token "(", expecting identifier or variable or "{" or "$" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"(\", expecting identifier or variable or \"{\" or \"$\" at C:\\XAMPP\\htdocs\\LaravelProject\\project\
+outes\\web.php:21)
 [stacktrace]
 #0 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\XAMPP\\\\htdocs...')
 #1 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\XAMPP\\\\htdocs...')
@@ -2180,10 +2184,12 @@ Stack trace:
 #27 C:\\XAMPP\\htdocs\\LaravelProject\\project\\server.php(21): require_once('C:\\\\XAMPP\\\\htdocs...')
 #28 {main}
 "} 
-[2022-01-04 20:11:43] local.ERROR: Route [/about.page] not defined. (View: C:\XAMPP\htdocs\LaravelProject\project\resources\views\welcome.blade.php) {"view":{"view":"C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php","data":[]},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Route [/about.page] not defined. (View: C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views\\welcome.blade.php) at C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:444)
+[2022-01-04 20:11:43] local.ERROR: Route [/about.page] not defined. (View: C:\XAMPP\htdocs\LaravelProject\project\resources\views\welcome.blade.php) {"view":{"view":"C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php","data":[]},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Route [/about.page] not defined. (View: C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views\\welcome.blade.php) at C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:444)
 [stacktrace]
 #0 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(739): Illuminate\\Routing\\UrlGenerator->route('/about.page', Array, true)
-#1 C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/welcome.blade.php(38): route('/about.page')
+#1 C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/welcome.blade.php(38): route('/about.page')
 #2 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(107): require('C:\\\\XAMPP\\\\htdocs...')
 #3 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
 #4 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\XAMPP\\\\htdocs...', Array)
@@ -2298,11 +2304,14 @@ Stack trace:
 #54 C:\\XAMPP\\htdocs\\LaravelProject\\project\\server.php(21): require_once('C:\\\\XAMPP\\\\htdocs...')
 #55 {main}
 "} 
-[2022-01-04 20:20:22] local.ERROR: Undefined constant "about" (View: C:\XAMPP\htdocs\LaravelProject\project\resources\views\welcome.blade.php) {"view":{"view":"C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/welcome.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-729448461 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#277</a><samp data-depth=1 class=sf-dump-expanded>
+[2022-01-04 20:20:22] local.ERROR: Undefined constant "about" (View: C:\XAMPP\htdocs\LaravelProject\project\resources\views\welcome.blade.php) {"view":{"view":"C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/welcome.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-729448461 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#277</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
 </pre><script>Sfdump(\"sf-dump-729448461\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
-"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined constant \"about\" (View: C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views\\welcome.blade.php) at C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/welcome.blade.php:38)
+"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined constant \"about\" (View: C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views\\welcome.blade.php) at C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/welcome.blade.php:38)
 [stacktrace]
 #0 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(107): require()
 #1 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
@@ -3015,7 +3024,8 @@ Stack trace:
 #51 C:\\XAMPP\\htdocs\\LaravelProject\\project\\server.php(21): require_once('C:\\\\XAMPP\\\\htdocs...')
 #52 {main}
 "} 
-[2022-01-05 19:21:17] local.ERROR: syntax error, unexpected end of file (View: C:\XAMPP\htdocs\LaravelProject\project\resources\views\form.blade.php) {"view":{"view":"C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-2089922545 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#284</a><samp data-depth=1 class=sf-dump-expanded>
+[2022-01-05 19:21:17] local.ERROR: syntax error, unexpected end of file (View: C:\XAMPP\htdocs\LaravelProject\project\resources\views\form.blade.php) {"view":{"view":"C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-2089922545 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#284</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
 </pre><script>Sfdump(\"sf-dump-2089922545\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
@@ -3045,7 +3055,9 @@ Stack trace:
   #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
 </samp>}
 </pre><script>Sfdump(\"sf-dump-41930333\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
-"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): syntax error, unexpected end of file (View: C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views\\form.blade.php) at C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php:101)
+"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): syntax error, unexpected end of file (View: C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views\\form.blade.php) at C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php:101)
 [stacktrace]
 #0 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
 #1 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\XAMPP\\\\htdocs...', Array)
@@ -3157,7 +3169,8 @@ Stack trace:
 #51 C:\\XAMPP\\htdocs\\LaravelProject\\project\\server.php(21): require_once('C:\\\\XAMPP\\\\htdocs...')
 #52 {main}
 "} 
-[2022-01-05 19:21:32] local.ERROR: Undefined property: stdClass::$examRoll (View: C:\XAMPP\htdocs\LaravelProject\project\resources\views\form.blade.php) {"view":{"view":"C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-1800403318 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#284</a><samp data-depth=1 class=sf-dump-expanded>
+[2022-01-05 19:21:32] local.ERROR: Undefined property: stdClass::$examRoll (View: C:\XAMPP\htdocs\LaravelProject\project\resources\views\form.blade.php) {"view":{"view":"C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-1800403318 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#284</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
 </pre><script>Sfdump(\"sf-dump-1800403318\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
@@ -3187,9 +3200,12 @@ Stack trace:
   #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
 </samp>}
 </pre><script>Sfdump(\"sf-dump-1474854321\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
-"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$examRoll (View: C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views\\form.blade.php) at C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php:80)
+"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$examRoll (View: C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views\\form.blade.php) at C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php:80)
 [stacktrace]
-#0 C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php(80): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Undefined prope...', 'C:\\\\XAMPP\\\\htdocs...', 80)
+#0 C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php(80): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Undefined prope...', 'C:\\\\XAMPP\\\\htdocs...', 80)
 #1 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(107): require('C:\\\\XAMPP\\\\htdocs...')
 #2 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
 #3 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\XAMPP\\\\htdocs...', Array)
@@ -3303,7 +3319,8 @@ Stack trace:
 #53 C:\\XAMPP\\htdocs\\LaravelProject\\project\\server.php(21): require_once('C:\\\\XAMPP\\\\htdocs...')
 #54 {main}
 "} 
-[2022-01-05 19:25:40] local.ERROR: Undefined property: stdClass::$examRoll (View: C:\XAMPP\htdocs\LaravelProject\project\resources\views\form.blade.php) {"view":{"view":"C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-1020192816 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#284</a><samp data-depth=1 class=sf-dump-expanded>
+[2022-01-05 19:25:40] local.ERROR: Undefined property: stdClass::$examRoll (View: C:\XAMPP\htdocs\LaravelProject\project\resources\views\form.blade.php) {"view":{"view":"C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-1020192816 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#284</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
 </pre><script>Sfdump(\"sf-dump-1020192816\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
@@ -3333,9 +3350,12 @@ Stack trace:
   #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
 </samp>}
 </pre><script>Sfdump(\"sf-dump-1542132561\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
-"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$examRoll (View: C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views\\form.blade.php) at C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php:80)
+"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$examRoll (View: C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views\\form.blade.php) at C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php:80)
 [stacktrace]
-#0 C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php(80): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Undefined prope...', 'C:\\\\XAMPP\\\\htdocs...', 80)
+#0 C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php(80): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Undefined prope...', 'C:\\\\XAMPP\\\\htdocs...', 80)
 #1 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(107): require('C:\\\\XAMPP\\\\htdocs...')
 #2 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
 #3 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\XAMPP\\\\htdocs...', Array)
@@ -3449,7 +3469,8 @@ Stack trace:
 #53 C:\\XAMPP\\htdocs\\LaravelProject\\project\\server.php(21): require_once('C:\\\\XAMPP\\\\htdocs...')
 #54 {main}
 "} 
-[2022-01-05 19:25:51] local.ERROR: Undefined property: stdClass::$examRoll (View: C:\XAMPP\htdocs\LaravelProject\project\resources\views\form.blade.php) {"view":{"view":"C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-324127128 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#284</a><samp data-depth=1 class=sf-dump-expanded>
+[2022-01-05 19:25:51] local.ERROR: Undefined property: stdClass::$examRoll (View: C:\XAMPP\htdocs\LaravelProject\project\resources\views\form.blade.php) {"view":{"view":"C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-324127128 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#284</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
 </pre><script>Sfdump(\"sf-dump-324127128\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
@@ -3479,9 +3500,12 @@ Stack trace:
   #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
 </samp>}
 </pre><script>Sfdump(\"sf-dump-1543659344\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
-"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$examRoll (View: C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views\\form.blade.php) at C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php:80)
+"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$examRoll (View: C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views\\form.blade.php) at C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php:80)
 [stacktrace]
-#0 C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php(80): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Undefined prope...', 'C:\\\\XAMPP\\\\htdocs...', 80)
+#0 C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php(80): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Undefined prope...', 'C:\\\\XAMPP\\\\htdocs...', 80)
 #1 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(107): require('C:\\\\XAMPP\\\\htdocs...')
 #2 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
 #3 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\XAMPP\\\\htdocs...', Array)
@@ -3595,7 +3619,8 @@ Stack trace:
 #53 C:\\XAMPP\\htdocs\\LaravelProject\\project\\server.php(21): require_once('C:\\\\XAMPP\\\\htdocs...')
 #54 {main}
 "} 
-[2022-01-05 19:26:39] local.ERROR: Undefined property: stdClass::$examRoll (View: C:\XAMPP\htdocs\LaravelProject\project\resources\views\form.blade.php) {"view":{"view":"C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-2016788853 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#284</a><samp data-depth=1 class=sf-dump-expanded>
+[2022-01-05 19:26:39] local.ERROR: Undefined property: stdClass::$examRoll (View: C:\XAMPP\htdocs\LaravelProject\project\resources\views\form.blade.php) {"view":{"view":"C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-2016788853 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#284</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
 </pre><script>Sfdump(\"sf-dump-2016788853\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
@@ -3625,9 +3650,12 @@ Stack trace:
   #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
 </samp>}
 </pre><script>Sfdump(\"sf-dump-821026408\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
-"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$examRoll (View: C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views\\form.blade.php) at C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php:80)
+"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$examRoll (View: C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views\\form.blade.php) at C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php:80)
 [stacktrace]
-#0 C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php(80): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Undefined prope...', 'C:\\\\XAMPP\\\\htdocs...', 80)
+#0 C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php(80): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Undefined prope...', 'C:\\\\XAMPP\\\\htdocs...', 80)
 #1 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(107): require('C:\\\\XAMPP\\\\htdocs...')
 #2 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
 #3 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\XAMPP\\\\htdocs...', Array)
@@ -3741,7 +3769,8 @@ Stack trace:
 #53 C:\\XAMPP\\htdocs\\LaravelProject\\project\\server.php(21): require_once('C:\\\\XAMPP\\\\htdocs...')
 #54 {main}
 "} 
-[2022-01-05 19:26:55] local.ERROR: Undefined property: stdClass::$examRoll (View: C:\XAMPP\htdocs\LaravelProject\project\resources\views\form.blade.php) {"view":{"view":"C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-826349514 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#284</a><samp data-depth=1 class=sf-dump-expanded>
+[2022-01-05 19:26:55] local.ERROR: Undefined property: stdClass::$examRoll (View: C:\XAMPP\htdocs\LaravelProject\project\resources\views\form.blade.php) {"view":{"view":"C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-826349514 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#284</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
 </pre><script>Sfdump(\"sf-dump-826349514\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
@@ -3771,9 +3800,12 @@ Stack trace:
   #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
 </samp>}
 </pre><script>Sfdump(\"sf-dump-133392161\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
-"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$examRoll (View: C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views\\form.blade.php) at C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php:80)
+"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$examRoll (View: C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views\\form.blade.php) at C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php:80)
 [stacktrace]
-#0 C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php(80): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Undefined prope...', 'C:\\\\XAMPP\\\\htdocs...', 80)
+#0 C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php(80): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Undefined prope...', 'C:\\\\XAMPP\\\\htdocs...', 80)
 #1 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(107): require('C:\\\\XAMPP\\\\htdocs...')
 #2 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
 #3 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\XAMPP\\\\htdocs...', Array)
@@ -3887,7 +3919,8 @@ Stack trace:
 #53 C:\\XAMPP\\htdocs\\LaravelProject\\project\\server.php(21): require_once('C:\\\\XAMPP\\\\htdocs...')
 #54 {main}
 "} 
-[2022-01-05 19:28:12] local.ERROR: Undefined property: stdClass::$examRoll (View: C:\XAMPP\htdocs\LaravelProject\project\resources\views\form.blade.php) {"view":{"view":"C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-1723720071 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#284</a><samp data-depth=1 class=sf-dump-expanded>
+[2022-01-05 19:28:12] local.ERROR: Undefined property: stdClass::$examRoll (View: C:\XAMPP\htdocs\LaravelProject\project\resources\views\form.blade.php) {"view":{"view":"C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-1723720071 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#284</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
 </pre><script>Sfdump(\"sf-dump-1723720071\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
@@ -3917,9 +3950,12 @@ Stack trace:
   #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
 </samp>}
 </pre><script>Sfdump(\"sf-dump-1686213586\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
-"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$examRoll (View: C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views\\form.blade.php) at C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php:80)
+"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$examRoll (View: C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views\\form.blade.php) at C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php:80)
 [stacktrace]
-#0 C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php(80): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Undefined prope...', 'C:\\\\XAMPP\\\\htdocs...', 80)
+#0 C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php(80): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Undefined prope...', 'C:\\\\XAMPP\\\\htdocs...', 80)
 #1 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(107): require('C:\\\\XAMPP\\\\htdocs...')
 #2 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
 #3 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\XAMPP\\\\htdocs...', Array)
@@ -4033,7 +4069,8 @@ Stack trace:
 #53 C:\\XAMPP\\htdocs\\LaravelProject\\project\\server.php(21): require_once('C:\\\\XAMPP\\\\htdocs...')
 #54 {main}
 "} 
-[2022-01-05 19:31:27] local.ERROR: Undefined property: stdClass::$examRoll (View: C:\XAMPP\htdocs\LaravelProject\project\resources\views\form.blade.php) {"view":{"view":"C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-476506270 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#284</a><samp data-depth=1 class=sf-dump-expanded>
+[2022-01-05 19:31:27] local.ERROR: Undefined property: stdClass::$examRoll (View: C:\XAMPP\htdocs\LaravelProject\project\resources\views\form.blade.php) {"view":{"view":"C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-476506270 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#284</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
 </pre><script>Sfdump(\"sf-dump-476506270\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
@@ -4063,9 +4100,12 @@ Stack trace:
   #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
 </samp>}
 </pre><script>Sfdump(\"sf-dump-1195157308\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
-"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$examRoll (View: C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views\\form.blade.php) at C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php:81)
+"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$examRoll (View: C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views\\form.blade.php) at C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php:81)
 [stacktrace]
-#0 C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php(81): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Undefined prope...', 'C:\\\\XAMPP\\\\htdocs...', 81)
+#0 C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php(81): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Undefined prope...', 'C:\\\\XAMPP\\\\htdocs...', 81)
 #1 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(107): require('C:\\\\XAMPP\\\\htdocs...')
 #2 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
 #3 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\XAMPP\\\\htdocs...', Array)
@@ -4179,7 +4219,8 @@ Stack trace:
 #53 C:\\XAMPP\\htdocs\\LaravelProject\\project\\server.php(21): require_once('C:\\\\XAMPP\\\\htdocs...')
 #54 {main}
 "} 
-[2022-01-05 19:32:25] local.ERROR: Undefined property: stdClass::$fathersName (View: C:\XAMPP\htdocs\LaravelProject\project\resources\views\form.blade.php) {"view":{"view":"C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-843227524 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#284</a><samp data-depth=1 class=sf-dump-expanded>
+[2022-01-05 19:32:25] local.ERROR: Undefined property: stdClass::$fathersName (View: C:\XAMPP\htdocs\LaravelProject\project\resources\views\form.blade.php) {"view":{"view":"C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-843227524 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#284</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
 </pre><script>Sfdump(\"sf-dump-843227524\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
@@ -4209,9 +4250,12 @@ Stack trace:
   #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
 </samp>}
 </pre><script>Sfdump(\"sf-dump-465766396\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
-"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$fathersName (View: C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views\\form.blade.php) at C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php:82)
+"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$fathersName (View: C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views\\form.blade.php) at C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php:82)
 [stacktrace]
-#0 C:\\XAMPP\\htdocs\\LaravelProject\\project\esources\\views/form.blade.php(82): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Undefined prope...', 'C:\\\\XAMPP\\\\htdocs...', 82)
+#0 C:\\XAMPP\\htdocs\\LaravelProject\\project\
+esources\\views/form.blade.php(82): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Undefined prope...', 'C:\\\\XAMPP\\\\htdocs...', 82)
 #1 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(107): require('C:\\\\XAMPP\\\\htdocs...')
 #2 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
 #3 C:\\XAMPP\\htdocs\\LaravelProject\\project\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\XAMPP\\\\htdocs...', Array)
@@ -6624,7 +6668,7 @@ Did you mean one of these?
 #43 C:\\XAMPP\\htdocs\\LaravelProject\\Admission-Management-System\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #44 C:\\XAMPP\\htdocs\\LaravelProject\\Admission-Management-System\\server.php(21): require_once('C:\\\\XAMPP\\\\htdocs...')
 #45 {main}
-=======
+
 [2022-01-09 03:14:15] production.ERROR: No application encryption key has been specified. {"exception":"[object] (Illuminate\\Encryption\\MissingAppKeyException(code: 0): No application encryption key has been specified. at C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php:101)
 [stacktrace]
 #0 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(263): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(NULL)
@@ -7405,9 +7449,9 @@ Did you mean one of these?
 #18 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
 #19 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
 #20 {main}
->>>>>>> choose-subject
-=======
-[2022-01-08 12:21:08] local.ERROR: syntax error, unexpected '.', expecting ';' or ',' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '.', expecting ';' or ',' at C:\\Users\\Rupa Kundu\\Documents\\faq\outes\\web.php:5)
+
+[2022-01-08 12:21:08] local.ERROR: syntax error, unexpected '.', expecting ';' or ',' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '.', expecting ';' or ',' at C:\\Users\\Rupa Kundu\\Documents\\faq\
+outes\\web.php:5)
 [stacktrace]
 #0 C:\\Users\\Rupa Kundu\\Documents\\faq\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\Rupa K...')
 #1 C:\\Users\\Rupa Kundu\\Documents\\faq\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\Users\\\\Rupa K...')
@@ -7562,7 +7606,8 @@ Did you mean one of these?
 #45 C:\\Users\\Rupa Kundu\\Documents\\faq\\server.php(21): require_once('C:\\\\Users\\\\Rupa K...')
 #46 {main}
 "} 
-[2022-01-08 13:16:33] local.ERROR: syntax error, unexpected end of file (View: C:\Users\Rupa Kundu\Documents\faq\resources\views\Faq.blade.php) {"view":{"view":"C:\\Users\\Rupa Kundu\\Documents\\faq\esources\\views/Faq.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-1770822080 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#277</a><samp data-depth=1 class=sf-dump-expanded>
+[2022-01-08 13:16:33] local.ERROR: syntax error, unexpected end of file (View: C:\Users\Rupa Kundu\Documents\faq\resources\views\Faq.blade.php) {"view":{"view":"C:\\Users\\Rupa Kundu\\Documents\\faq\
+esources\\views/Faq.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-1770822080 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#277</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
 </pre><script>Sfdump(\"sf-dump-1770822080\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
@@ -7579,7 +7624,9 @@ Did you mean one of these?
   #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
 </samp>}
 </pre><script>Sfdump(\"sf-dump-721590353\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
-"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): syntax error, unexpected end of file (View: C:\\Users\\Rupa Kundu\\Documents\\faq\esources\\views\\Faq.blade.php) at C:\\Users\\Rupa Kundu\\Documents\\faq\esources\\views/Faq.blade.php:41)
+"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): syntax error, unexpected end of file (View: C:\\Users\\Rupa Kundu\\Documents\\faq\
+esources\\views\\Faq.blade.php) at C:\\Users\\Rupa Kundu\\Documents\\faq\
+esources\\views/Faq.blade.php:41)
 [stacktrace]
 #0 C:\\Users\\Rupa Kundu\\Documents\\faq\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
 #1 C:\\Users\\Rupa Kundu\\Documents\\faq\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\Rupa K...', Array)
@@ -7691,7 +7738,8 @@ Did you mean one of these?
 #51 C:\\Users\\Rupa Kundu\\Documents\\faq\\server.php(21): require_once('C:\\\\Users\\\\Rupa K...')
 #52 {main}
 "} 
-[2022-01-08 13:18:06] local.ERROR: Invalid argument supplied for foreach() (View: C:\Users\Rupa Kundu\Documents\faq\resources\views\Faq.blade.php) {"view":{"view":"C:\\Users\\Rupa Kundu\\Documents\\faq\esources\\views/Faq.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-989535373 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#277</a><samp data-depth=1 class=sf-dump-expanded>
+[2022-01-08 13:18:06] local.ERROR: Invalid argument supplied for foreach() (View: C:\Users\Rupa Kundu\Documents\faq\resources\views\Faq.blade.php) {"view":{"view":"C:\\Users\\Rupa Kundu\\Documents\\faq\
+esources\\views/Faq.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-989535373 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#277</a><samp data-depth=1 class=sf-dump-expanded>
   #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
 </samp>}
 </pre><script>Sfdump(\"sf-dump-989535373\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
@@ -7708,9 +7756,12 @@ Did you mean one of these?
   #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
 </samp>}
 </pre><script>Sfdump(\"sf-dump-1429903864\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
-"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Invalid argument supplied for foreach() (View: C:\\Users\\Rupa Kundu\\Documents\\faq\esources\\views\\Faq.blade.php) at C:\\Users\\Rupa Kundu\\Documents\\faq\esources\\views/Faq.blade.php:32)
+"}},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Invalid argument supplied for foreach() (View: C:\\Users\\Rupa Kundu\\Documents\\faq\
+esources\\views\\Faq.blade.php) at C:\\Users\\Rupa Kundu\\Documents\\faq\
+esources\\views/Faq.blade.php:32)
 [stacktrace]
-#0 C:\\Users\\Rupa Kundu\\Documents\\faq\esources\\views/Faq.blade.php(32): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Invalid argumen...', 'C:\\\\Users\\\\Rupa K...', 32, Array)
+#0 C:\\Users\\Rupa Kundu\\Documents\\faq\
+esources\\views/Faq.blade.php(32): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Invalid argumen...', 'C:\\\\Users\\\\Rupa K...', 32, Array)
 #1 C:\\Users\\Rupa Kundu\\Documents\\faq\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(107): require('C:\\\\Users\\\\Rupa K...')
 #2 C:\\Users\\Rupa Kundu\\Documents\\faq\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
 #3 C:\\Users\\Rupa Kundu\\Documents\\faq\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\Rupa K...', Array)
@@ -7824,10 +7875,12 @@ Did you mean one of these?
 #53 C:\\Users\\Rupa Kundu\\Documents\\faq\\server.php(21): require_once('C:\\\\Users\\\\Rupa K...')
 #54 {main}
 "} 
-[2022-01-08 13:30:15] local.ERROR: Route [question] not defined. (View: C:\Users\Rupa Kundu\Documents\faq\resources\views\Faq.blade.php) {"view":{"view":"C:\\Users\\Rupa Kundu\\Documents\\faq\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php","data":[]},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Route [question] not defined. (View: C:\\Users\\Rupa Kundu\\Documents\\faq\esources\\views\\Faq.blade.php) at C:\\Users\\Rupa Kundu\\Documents\\faq\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:444)
+[2022-01-08 13:30:15] local.ERROR: Route [question] not defined. (View: C:\Users\Rupa Kundu\Documents\faq\resources\views\Faq.blade.php) {"view":{"view":"C:\\Users\\Rupa Kundu\\Documents\\faq\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php","data":[]},"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Route [question] not defined. (View: C:\\Users\\Rupa Kundu\\Documents\\faq\
+esources\\views\\Faq.blade.php) at C:\\Users\\Rupa Kundu\\Documents\\faq\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:444)
 [stacktrace]
 #0 C:\\Users\\Rupa Kundu\\Documents\\faq\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(739): Illuminate\\Routing\\UrlGenerator->route('question', Array, true)
-#1 C:\\Users\\Rupa Kundu\\Documents\\faq\esources\\views/Faq.blade.php(38): route('question')
+#1 C:\\Users\\Rupa Kundu\\Documents\\faq\
+esources\\views/Faq.blade.php(38): route('question')
 #2 C:\\Users\\Rupa Kundu\\Documents\\faq\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(107): require('C:\\\\Users\\\\Rupa K...')
 #3 C:\\Users\\Rupa Kundu\\Documents\\faq\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(108): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
 #4 C:\\Users\\Rupa Kundu\\Documents\\faq\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\Rupa K...', Array)
@@ -8103,9 +8156,11 @@ Did you mean one of these?
 #46 C:\\Users\\Rupa Kundu\\Documents\\faq\\server.php(21): require_once('C:\\\\Users\\\\Rupa K...')
 #47 {main}
 "} 
-[2022-01-08 13:59:13] local.ERROR: Undefined variable: faq {"exception":"[object] (ErrorException(code: 0): Undefined variable: faq at C:\\Users\\Rupa Kundu\\Documents\\faq\outes\\web.php:7)
+[2022-01-08 13:59:13] local.ERROR: Undefined variable: faq {"exception":"[object] (ErrorException(code: 0): Undefined variable: faq at C:\\Users\\Rupa Kundu\\Documents\\faq\
+outes\\web.php:7)
 [stacktrace]
-#0 C:\\Users\\Rupa Kundu\\Documents\\faq\outes\\web.php(7): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\Users\\\\Rupa K...', 7, Array)
+#0 C:\\Users\\Rupa Kundu\\Documents\\faq\
+outes\\web.php(7): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\Users\\\\Rupa K...', 7, Array)
 #1 C:\\Users\\Rupa Kundu\\Documents\\faq\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteFileRegistrar.php(35): require('C:\\\\Users\\\\Rupa K...')
 #2 C:\\Users\\Rupa Kundu\\Documents\\faq\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\Users\\\\Rupa K...')
 #3 C:\\Users\\Rupa Kundu\\Documents\\faq\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\Users\\\\Rupa K...')
@@ -8812,9 +8867,7 @@ Did you mean one of these?
 #45 C:\\Users\\Rupa Kundu\\Documents\\faq\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #46 C:\\Users\\Rupa Kundu\\Documents\\faq\\server.php(21): require_once('C:\\\\Users\\\\Rupa K...')
 #47 {main}
->>>>>>> FAQ
 "} 
-=======
 Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
  (SQL: select * from information_schema.tables where table_schema = admission and table_name = migrations)' in F:\xampp\htdocs\sepsyc\vendor\laravel\framework\src\Illuminate\Database\Connection.php:647
 Stack trace:
@@ -8877,3 +8930,349 @@ Stack trace:
 #26 F:\xampp\htdocs\sepsyc\artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #27 {main}  
 >>>>>>> 94f4b793b83c2f06a768365f4550f0df74d37fbb
+[2022-01-14 13:49:42] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:207)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(132): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(111): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(583): Illuminate\\Log\\LogManager->driver()
+#3 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(252): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(366): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(ParseError))
+#5 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(ParseError))
+#6 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 {main}
+"} 
+[2022-01-14 13:49:42] laravel.ERROR: syntax error, unexpected token "<<", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"<<\", expecting \"]\" at C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\config\\app.php:179)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2022-01-14 12:58:31] local.ERROR: Class "Barryvdh\DomPDF\ServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"Barryvdh\\DomPDF\\ServiceProvider\" not found at C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:208)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Barryvdh\\\\DomPDF...')
+#1 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(659): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2022-01-14 13:13:12] local.ERROR: No application encryption key has been specified. {"exception":"[object] (Illuminate\\Encryption\\MissingAppKeyException(code: 0): No application encryption key has been specified. at C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php:101)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(263): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}('')
+#1 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(103): tap('', Object(Closure))
+#2 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(82): Illuminate\\Encryption\\EncryptionServiceProvider->key(Array)
+#3 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(34): Illuminate\\Encryption\\EncryptionServiceProvider->parseKey(Array)
+#4 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(873): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#5 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build(Object(Closure))
+#6 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): Illuminate\\Container\\Container->resolve('encrypter', Array, true)
+#7 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('encrypter', Array)
+#8 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(836): Illuminate\\Container\\Container->make('encrypter', Array)
+#9 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1031): Illuminate\\Foundation\\Application->make('encrypter')
+#10 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(951): Illuminate\\Container\\Container->resolveClass(Object(ReflectionParameter))
+#11 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(912): Illuminate\\Container\\Container->resolveDependencies(Array)
+#12 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build('App\\\\Http\\\\Middle...')
+#13 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Middle...', Array, true)
+#14 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Middle...', Array)
+#15 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(836): Illuminate\\Container\\Container->make('App\\\\Http\\\\Middle...', Array)
+#16 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(156): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Middle...')
+#17 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(697): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#19 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#20 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(636): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#21 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#22 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(167): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#23 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#36 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#37 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\public\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#38 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
+#39 {main}
+"} 
+[2022-01-14 13:13:13] local.ERROR: No application encryption key has been specified. {"exception":"[object] (Illuminate\\Encryption\\MissingAppKeyException(code: 0): No application encryption key has been specified. at C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php:101)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(263): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}('')
+#1 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(103): tap('', Object(Closure))
+#2 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(82): Illuminate\\Encryption\\EncryptionServiceProvider->key(Array)
+#3 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Encryption\\EncryptionServiceProvider.php(34): Illuminate\\Encryption\\EncryptionServiceProvider->parseKey(Array)
+#4 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(873): Illuminate\\Encryption\\EncryptionServiceProvider->Illuminate\\Encryption\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#5 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build(Object(Closure))
+#6 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): Illuminate\\Container\\Container->resolve('encrypter', Array, true)
+#7 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('encrypter', Array)
+#8 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(836): Illuminate\\Container\\Container->make('encrypter', Array)
+#9 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1031): Illuminate\\Foundation\\Application->make('encrypter')
+#10 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(951): Illuminate\\Container\\Container->resolveClass(Object(ReflectionParameter))
+#11 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(912): Illuminate\\Container\\Container->resolveDependencies(Array)
+#12 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build('App\\\\Http\\\\Middle...')
+#13 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Middle...', Array, true)
+#14 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Middle...', Array)
+#15 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(836): Illuminate\\Container\\Container->make('App\\\\Http\\\\Middle...', Array)
+#16 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(206): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Middle...')
+#17 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(180): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#18 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\public\\index.php(58): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#19 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
+#20 {main}
+"} 
+[2022-01-14 13:14:11] local.ERROR: syntax error, unexpected token "<", expecting end of file {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"<\", expecting end of file at C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\app\\Http\\Controllers\\ControlSubmit.php:122)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Http\\\\Contro...')
+#2 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(877): ReflectionClass->__construct('App\\\\Http\\\\Contro...')
+#3 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build('App\\\\Http\\\\Contro...')
+#4 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Contro...', Array, true)
+#5 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Contro...', Array)
+#6 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(836): Illuminate\\Container\\Container->make('App\\\\Http\\\\Contro...', Array)
+#7 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(276): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Contro...')
+#8 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1069): Illuminate\\Routing\\Route->getController()
+#9 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1012): Illuminate\\Routing\\Route->controllerMiddleware()
+#10 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(708): Illuminate\\Routing\\Route->gatherMiddleware()
+#11 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(688): Illuminate\\Routing\\Router->gatherRouteMiddleware(Object(Illuminate\\Routing\\Route))
+#12 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#13 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(636): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#14 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#15 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(167): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#16 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#29 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#30 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\public\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#31 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
+#32 {main}
+"} 
+[2022-01-14 13:15:25] local.ERROR: syntax error, unexpected token "<", expecting end of file {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"<\", expecting end of file at C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\app\\Http\\Controllers\\ControlSubmit.php:122)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Http\\\\Contro...')
+#2 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(877): ReflectionClass->__construct('App\\\\Http\\\\Contro...')
+#3 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build('App\\\\Http\\\\Contro...')
+#4 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Contro...', Array, true)
+#5 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Contro...', Array)
+#6 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(836): Illuminate\\Container\\Container->make('App\\\\Http\\\\Contro...', Array)
+#7 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(276): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Contro...')
+#8 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1069): Illuminate\\Routing\\Route->getController()
+#9 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1012): Illuminate\\Routing\\Route->controllerMiddleware()
+#10 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(708): Illuminate\\Routing\\Route->gatherMiddleware()
+#11 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(688): Illuminate\\Routing\\Router->gatherRouteMiddleware(Object(Illuminate\\Routing\\Route))
+#12 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#13 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(636): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#14 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#15 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(167): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#16 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#29 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#30 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\public\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#31 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
+#32 {main}
+"} 
+[2022-01-14 13:16:28] local.ERROR: syntax error, unexpected token "<", expecting end of file {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"<\", expecting end of file at C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\app\\Http\\Controllers\\ControlSubmit.php:122)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Http\\\\Contro...')
+#2 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(877): ReflectionClass->__construct('App\\\\Http\\\\Contro...')
+#3 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build('App\\\\Http\\\\Contro...')
+#4 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Contro...', Array, true)
+#5 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Contro...', Array)
+#6 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(836): Illuminate\\Container\\Container->make('App\\\\Http\\\\Contro...', Array)
+#7 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(276): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Contro...')
+#8 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1069): Illuminate\\Routing\\Route->getController()
+#9 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1012): Illuminate\\Routing\\Route->controllerMiddleware()
+#10 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(708): Illuminate\\Routing\\Route->gatherMiddleware()
+#11 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(688): Illuminate\\Routing\\Router->gatherRouteMiddleware(Object(Illuminate\\Routing\\Route))
+#12 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#13 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(636): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#14 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#15 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(167): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#16 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#29 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#30 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\public\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#31 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
+#32 {main}
+"} 
+[2022-01-14 13:19:30] local.ERROR: syntax error, unexpected token "<", expecting end of file {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"<\", expecting end of file at C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\app\\Http\\Controllers\\ControlSubmit.php:122)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Http\\\\Contro...')
+#2 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(877): ReflectionClass->__construct('App\\\\Http\\\\Contro...')
+#3 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build('App\\\\Http\\\\Contro...')
+#4 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Contro...', Array, true)
+#5 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Contro...', Array)
+#6 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(836): Illuminate\\Container\\Container->make('App\\\\Http\\\\Contro...', Array)
+#7 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(276): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Contro...')
+#8 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1069): Illuminate\\Routing\\Route->getController()
+#9 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1012): Illuminate\\Routing\\Route->controllerMiddleware()
+#10 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(708): Illuminate\\Routing\\Route->gatherMiddleware()
+#11 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(688): Illuminate\\Routing\\Router->gatherRouteMiddleware(Object(Illuminate\\Routing\\Route))
+#12 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#13 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(636): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#14 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#15 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(167): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#16 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#29 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#30 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\public\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#31 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
+#32 {main}
+"} 
+[2022-01-14 13:20:43] local.ERROR: syntax error, unexpected token "<", expecting end of file {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"<\", expecting end of file at C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\app\\Http\\Controllers\\ControlSubmit.php:122)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile('C:\\\\xampp\\\\htdocs...')
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Http\\\\Contro...')
+#2 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(877): ReflectionClass->__construct('App\\\\Http\\\\Contro...')
+#3 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build('App\\\\Http\\\\Contro...')
+#4 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Contro...', Array, true)
+#5 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('App\\\\Http\\\\Contro...', Array)
+#6 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(836): Illuminate\\Container\\Container->make('App\\\\Http\\\\Contro...', Array)
+#7 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(276): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Contro...')
+#8 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1069): Illuminate\\Routing\\Route->getController()
+#9 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1012): Illuminate\\Routing\\Route->controllerMiddleware()
+#10 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(708): Illuminate\\Routing\\Route->gatherMiddleware()
+#11 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(688): Illuminate\\Routing\\Router->gatherRouteMiddleware(Object(Illuminate\\Routing\\Route))
+#12 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#13 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(636): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#14 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#15 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(167): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#16 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#29 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#30 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\public\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#31 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
+#32 {main}
+"} 
+[2022-01-14 13:25:39] local.ERROR: Target class [GetAdmit] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [GetAdmit] does not exist. at C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:879)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build('GetAdmit')
+#1 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): Illuminate\\Container\\Container->resolve('GetAdmit', Array, true)
+#2 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('GetAdmit', Array)
+#3 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(836): Illuminate\\Container\\Container->make('GetAdmit', Array)
+#4 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(276): Illuminate\\Foundation\\Application->make('GetAdmit')
+#5 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1069): Illuminate\\Routing\\Route->getController()
+#6 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1012): Illuminate\\Routing\\Route->controllerMiddleware()
+#7 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(708): Illuminate\\Routing\\Route->gatherMiddleware()
+#8 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(688): Illuminate\\Routing\\Router->gatherRouteMiddleware(Object(Illuminate\\Routing\\Route))
+#9 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#10 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(636): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#11 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#12 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(167): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#13 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#26 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#27 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\public\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
+#29 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"GetAdmit\" does not exist at C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:877)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(877): ReflectionClass->__construct('GetAdmit')
+#1 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build('GetAdmit')
+#2 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): Illuminate\\Container\\Container->resolve('GetAdmit', Array, true)
+#3 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('GetAdmit', Array)
+#4 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(836): Illuminate\\Container\\Container->make('GetAdmit', Array)
+#5 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(276): Illuminate\\Foundation\\Application->make('GetAdmit')
+#6 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1069): Illuminate\\Routing\\Route->getController()
+#7 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1012): Illuminate\\Routing\\Route->controllerMiddleware()
+#8 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(708): Illuminate\\Routing\\Route->gatherMiddleware()
+#9 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(688): Illuminate\\Routing\\Router->gatherRouteMiddleware(Object(Illuminate\\Routing\\Route))
+#10 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#11 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(636): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#12 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#13 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(167): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#14 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#16 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#27 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\public\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#29 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
+#30 {main}
+"} 

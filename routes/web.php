@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FirstController;
-use App\Http\Controllers\StudentController;
+use App\Http\Controllers\StudentAdmitController;
 use App\Http\Controllers\PdfController;
 
 /*
@@ -18,11 +18,11 @@ use App\Http\Controllers\PdfController;
 
 
 //Admit Card Admin panel route
-Route::get('/form',[StudentController::class,'index'])->name('index');
-Route::post('/form',[StudentController::class,'create'])->name('create');
-Route::get('/edit/{id}',[StudentController::class,'edit'])->name('edit');
-Route::put('/edit/{id}',[StudentController::class,'update'])->name('update');
-Route::get('/delete/{id}',[StudentController::class,'destroy'])->name('destroy');
+Route::get('/form',[StudentAdmitController::class,'index'])->name('index');
+Route::post('/form',[StudentAdmitController::class,'create'])->name('create');
+Route::get('/edit/{id}',[StudentAdmitController::class,'edit'])->name('edit');
+Route::put('/edit/{id}',[StudentAdmitController::class,'update'])->name('update');
+Route::get('/delete/{id}',[StudentAdmitController::class,'destroy'])->name('destroy');
 
 
 //Admit Card User side route
@@ -33,8 +33,8 @@ Route::get('/', function () {
 Route::get('/JU/about',[FirstController::class,'about'])->name('about.page');
 
 
-Route::get('/admit/{id}',[StudentController::class,'pdfView'])->name('pdfView');
+Route::get('/admit/{id}',[StudentAdmitController::class,'pdfView'])->name('pdfView');
 
-Route::get('/admitdownload',[StudentController::class,'downloadView'])->name('downloadView');
+Route::get('/admitdownload',[StudentAdmitController::class,'downloadView'])->name('downloadView');
 
 //Route::get('/admit',[PdfController::class,'pdfGenereation'])->name('pdfGenereation');

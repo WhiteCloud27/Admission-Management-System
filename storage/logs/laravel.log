@@ -10948,10 +10948,13 @@ Stack trace:
 <<<<<<< HEAD
 >>>>>>> AdmitCard
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> AdmitCard
 =======
 >>>>>>> 14d9506e97c2587ec1861a4f65518477ef9fe83f
+=======
+>>>>>>> 1bfed30a315c4694ffe371f850b508e6ae559d72
 [2022-01-14 15:52:57] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:207)
 [stacktrace]
 #0 C:\\xampp\\htdocs\\Laravel\\Admission-Management-System\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(132): Illuminate\\Log\\LogManager->resolve(NULL, NULL)

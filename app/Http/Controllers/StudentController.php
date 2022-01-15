@@ -90,7 +90,6 @@ class StudentController extends Controller
        {
         return view('error');
        }
-
     }
 
     /**
@@ -125,6 +124,5 @@ class StudentController extends Controller
     {
         //
     }
-
 
 }

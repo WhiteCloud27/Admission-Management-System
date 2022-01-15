@@ -28,60 +28,6 @@ use App\Http\Controllers\FaqController;
 |
 */
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 14d9506e97c2587ec1861a4f65518477ef9fe83f
-=======
->>>>>>> 14d9506e97c2587ec1861a4f65518477ef9fe83f
-=======
->>>>>>> 1bfed30a315c4694ffe371f850b508e6ae559d72
-Route::get('/', function () {
-    return view('index');
-});
-
-Route::get('/dashboard',[FirstController::class,'dashboard']);
-Route::get('/JU/about',[FirstController::class,'about'])->name('about.page');
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> AdmitCard
-=======
->>>>>>> AdmitCard
-=======
->>>>>>> 14d9506e97c2587ec1861a4f65518477ef9fe83f
-=======
->>>>>>> 14d9506e97c2587ec1861a4f65518477ef9fe83f
-=======
->>>>>>> 1bfed30a315c4694ffe371f850b508e6ae559d72
-
-Route::get('/form',[StudentController::class,'index'])->name('index');
-Route::post('/form',[StudentController::class,'create'])->name('create');
-Route::get('/edit/{id}',[StudentController::class,'edit'])->name('edit');
-Route::put('/edit/{id}',[StudentController::class,'update'])->name('update');
-Route::get('/delete/{id}',[StudentController::class,'destroy'])->name('destroy');
-
-
-//Route::get('/admit',[PdfController::class,'pdfView'])->name('pdfView');
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 14d9506e97c2587ec1861a4f65518477ef9fe83f
-=======
->>>>>>> 14d9506e97c2587ec1861a4f65518477ef9fe83f
-=======
->>>>>>> 1bfed30a315c4694ffe371f850b508e6ae559d72
-Route::get('/admit',[PdfController::class,'pdfGenereation'])->name('pdfGenereation');
-
 Route::match(['get','post'],'/choosesubject',[ControlChoose::class,'choose']);
 
 Route::match(['get','post'],'/done/{faculty}',[ConfirmSubmission::class,'done'])->name('done');
@@ -111,31 +57,4 @@ Route::view("/Admin","AdminForm");
 Route::get('/uploadpage',[PageController::class,'uploadpage']);
 //Route::get('/uploadpage', [App\Http\Controllers\PageController::class, 'index'])->name('uploadpage');
 //Route::get('/uploadpage', [PageController::class, 'uploadpage']);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 //Route::get('/photos/popular', [PhotoController::class, 'popular']);
-=======
-=======
->>>>>>> AdmitCard
-Route::get('/JU/about',[FirstController::class,'about'])->name('about.page');
-
-
-Route::get('/admit/{id}',[StudentController::class,'pdfView'])->name('pdfView');
-
-Route::get('/admitdownload',[StudentController::class,'downloadView'])->name('downloadView');
-
-//Route::get('/admit',[PdfController::class,'pdfGenereation'])->name('pdfGenereation');
-<<<<<<< HEAD
->>>>>>> AdmitCard
-=======
->>>>>>> AdmitCard
-=======
-//Route::get('/photos/popular', [PhotoController::class, 'popular']);
->>>>>>> 14d9506e97c2587ec1861a4f65518477ef9fe83f
-=======
-//Route::get('/photos/popular', [PhotoController::class, 'popular']);
->>>>>>> 14d9506e97c2587ec1861a4f65518477ef9fe83f
-=======
-//Route::get('/photos/popular', [PhotoController::class, 'popular']);
->>>>>>> 1bfed30a315c4694ffe371f850b508e6ae559d72

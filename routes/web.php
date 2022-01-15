@@ -19,7 +19,7 @@ use App\Http\Controllers\PdfController;
 
 //Admit Card Admin panel route
 Route::get('/form',[StudentAdmitController::class,'index'])->name('index');
-Route::post('/form',[StudentAdmitController::class,'create'])->name('create');
+Route::post('/form',[StudentAdmitController::class,'creates'])->name('creates');
 Route::get('/edit/{id}',[StudentAdmitController::class,'edit'])->name('edit');
 Route::put('/edit/{id}',[StudentAdmitController::class,'update'])->name('update');
 Route::get('/delete/{id}',[StudentAdmitController::class,'destroy'])->name('destroy');

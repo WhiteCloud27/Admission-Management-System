@@ -23,7 +23,7 @@ class StudentAdmitController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create(Request $request)
+    public function creates(Request $request)
     {
         DB::table('students')->insert([
             'name' => $request->name,

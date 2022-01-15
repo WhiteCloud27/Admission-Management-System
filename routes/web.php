@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\FirstController;
-use App\Http\Controllers\StAdmitController;
+use App\Http\Controllers\AdmitcardController;
 use App\Http\Controllers\PdfController;
 
 use App\Http\Controllers\ControlChoose;

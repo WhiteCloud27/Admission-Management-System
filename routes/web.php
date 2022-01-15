@@ -17,6 +17,8 @@ use App\Http\Controllers\UsersController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\FaqController;
 
+use App\Http\Controllers\ContactController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -83,4 +85,11 @@ Route::get('/uploadpage',[PageController::class,'uploadpage']);
 //Route::get('/photos/popular', [PhotoController::class, 'popular']);
 
 //Route::get('/admit',[PdfController::class,'pdfGenereation'])->name('pdfGenereation');
+
+
+
+//Route for contact
+
+Route::get('/contactus',[ContactController::class,'contact'] );
+Route::post('/sendmessage',[ContactController::class,'sendEmail'])->name('contact.send');
 

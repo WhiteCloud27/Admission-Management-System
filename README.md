@@ -1,15 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Admission-Management-System
-=======
->>>>>>> choose-subject
-=======
->>>>>>> FAQ
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
-=======
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
->>>>>>> 94f4b793b83c2f06a768365f4550f0df74d37fbb
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>

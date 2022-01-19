@@ -19,6 +19,8 @@ use App\Http\Controllers\FaqController;
 
 use App\Http\Controllers\ContactController;
 
+use App\Http\Controllers\AdminResultController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -92,4 +94,10 @@ Route::get('/uploadpage',[PageController::class,'uploadpage']);
 
 Route::get('/contactus',[ContactController::class,'contact'] );
 Route::post('/sendmessage',[ContactController::class,'sendEmail'])->name('contact.send');
+
+Route::post("admins",[AdminResultController::class,'setResult']);
+Route::view("admin","admins");
+
+Route::post("candidate",[AdminResultController::class,'getResult']);
+Route::view("candidate","candidate");
 

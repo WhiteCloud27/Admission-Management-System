@@ -14,6 +14,7 @@ class StudentController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+<<<<<<< HEAD
     public function index()
     {
 
@@ -45,11 +46,13 @@ class StudentController extends Controller
         ]);
         return redirect(route('index'))->with('status', 'Data added succesfully.');
     }
+=======
+>>>>>>> 471a035b6b2b3ad43ce60074cd5c215bc402f129
     
     public function create(Request $req)
     {
         //
-         $member=new Member;
+        $member = new Member;
         $member->firstName=$req->firstName;
         $member->lastName=$req->lastName;
         $member->fatherName=$req->fatherName;
@@ -121,7 +124,10 @@ class StudentController extends Controller
        {
         return view('error');
        }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 471a035b6b2b3ad43ce60074cd5c215bc402f129
     }
 
     /**
@@ -154,6 +160,7 @@ class StudentController extends Controller
      */
     public function edit($id)
     {
+<<<<<<< HEAD
 
         $student = DB::table('students')->find($id);
 
@@ -224,3 +231,9 @@ class StudentController extends Controller
 
 
 }
+=======
+        //
+    }
+
+}
+>>>>>>> 471a035b6b2b3ad43ce60074cd5c215bc402f129

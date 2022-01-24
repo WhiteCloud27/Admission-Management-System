@@ -7,8 +7,8 @@
                 @include("larecipe::partials.logo")
 
                 <p class="inline-block font-semibold mx-1 text-grey-dark">
-                    <!-- {{ config('app.name') }} -->
-                    Ju Admission
+                    {{-- {{ config('app.name') }} --}}
+                    Admission Management System
                 </p>
             </a>
 

@@ -56,6 +56,11 @@ Route::match(['get','post'],'/choosesubject',[ControlChoose::class,'choose']);
 Route::match(['get','post'],'/done/{faculty}',[ConfirmSubmission::class,'done'])->name('done');
 
 Route::match(['get','post'],'/choose/submit',[ControlSubmit::class,'submit'])->name('choose.submit');
+Route::match(['get','post'],'/getadmitform',function () 
+{
+    return view('getadmit.getadmit-layout');
+});
+Route::post('/getadmit',[GetAdmit::class,'admit'])->name('getadmit');
 
 Auth::routes();
 

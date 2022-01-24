@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateInsstuapplyTable extends Migration
+class CreateInsStuAppliesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -16,6 +16,7 @@ class CreateInsstuapplyTable extends Migration
         Schema::create('ins_stu_applies', function (Blueprint $table) {
             $table->increments('applstuid');
             $table->integer('roll')->nullable;
+            $table->boolean('done')->default(0);
             $table->timestamps();
         });
     }

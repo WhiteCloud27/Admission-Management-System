@@ -21,67 +21,123 @@ class GetAdmit extends Controller
         $string = implode(",",$request->all());
        if(strcmp($faculty, "maths") == 0)
        {
-            $var = new MathStuApply;
-            $var -> roll = $request -> roll;
             $validated = $request -> validate([
             'roll' => 'exists:math_stu_applies,roll|required',
             ]);
-            Storage::append('application/mathapp.log', $string);
+            $var = MathStuApply::firstWhere('roll', $request -> roll);
+            if($var -> done == 0)
+            {
+               $var -> done = 1;
+               $var -> save();
+               Storage::append('application/mathapp.log', $string);
+            }
+            else
+            {
+               return view('getadmit.fail');
+            }
        }
        elseif(strcmp($faculty, "arts") == 0)
        {
-            $var = new ArtStuApply;
-            $var -> roll = $request -> roll;
             $validated = $request -> validate([
             'roll' => 'exists:art_stu_applies,roll|required',
             ]);
-            Storage::append('application/artapp.log', $string);
+            $var = ArtStuApply::firstWhere('roll', $request -> roll);
+            if($var -> done == 0)
+            {
+               $var -> done = 1;
+               $var -> save();
+               Storage::append('application/artapp.log', $string);
+            }
+            else
+            {
+               return view('getadmit.fail');
+            }
        }
        elseif(strcmp($faculty, "social") == 0)
        {
-            $var = new SocialStuApply;
-            $var -> roll = $request -> roll;
             $validated = $request -> validate([
             'roll' => 'exists:social_stu_applies,roll|required',
             ]);
-            Storage::append('application/socialapp.log', $string);
+            $var = SocialStuApply::firstWhere('roll', $request -> roll);
+            if($var -> done == 0)
+            {
+               $var -> done = 1;
+               $var -> save();
+               Storage::append('application/socialapp.log', $string);
+            }
+            else
+            {
+               return view('getadmit.fail');
+            }
        }
        elseif(strcmp($faculty, "bio") == 0)
        {
-            $var = new BioStuApply;
-            $var -> roll = $request -> roll;
             $validated = $request -> validate([
             'roll' => 'exists:bio_stu_applies,roll|required',
             ]);
-            Storage::append('application/bioapp.log', $string);
+            $var = BioStuApply::firstWhere('roll', $request -> roll);
+            if($var -> done == 0)
+            {
+               $var -> done = 1;
+               $var -> save();
+               Storage::append('application/bioapp.log', $string);
+            }
+            else
+            {
+               return view('getadmit.fail');
+            }
        }
        elseif(strcmp($faculty, "busi") == 0)
        {
-            $var = new BusinStuApply;
-            $var -> roll = $request -> roll;
             $validated = $request -> validate([
             'roll' => 'exists:busin_stu_applies,roll|required',
             ]);
-            Storage::append('application/busiapp.log', $string);
+            $var = BusinStuApply::firstWhere('roll', $request -> roll);
+            if($var -> done == 0)
+            {
+               $var -> done = 1;
+               $var -> save();
+               Storage::append('application/busiapp.log', $string);
+            }
+             else
+            {
+               return view('getadmit.fail');
+            }
        }
        elseif(strcmp($faculty, "law") == 0)
        {
-            $var = new LawStuApply;
-            $var -> roll = $request -> roll;
             $validated = $request -> validate([
             'roll' => 'exists:law_stu_applies,roll|required',
             ]);
-            Storage::append('application/lawapp.log', $string);
+            $var = LawStuApply::firstWhere('roll', $request -> roll);
+            if($var -> done == 0)
+            {
+               $var -> done = 1;
+               $var -> save();
+               Storage::append('application/lawapp.log', $string);
+            }
+            else
+            {
+               return view('getadmit.fail');
+            }
        }
        else
        {
-            $var = new InsStuApply;
-            $var -> roll = $request -> roll;
             $validated = $request -> validate([
             'roll' => 'exists:ins_stu_applies,roll|required',
             ]);
-            Storage::append('application/insapp.log', $string);
+            $var = InsStuApply::firstWhere('roll', $request -> roll);
+            if($var -> done == 0)
+            {
+               $var -> done = 1;
+               $var -> save();
+               Storage::append('application/insapp.log', $string);
+            }
+            else
+            {
+               return view('getadmit.fail');
+            }
        }
-
+       return view('success/success');
     }
 }

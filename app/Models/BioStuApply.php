@@ -9,5 +9,6 @@ class BioStuApply extends Model
 {
     use HasFactory;
     protected $fillable = ['roll'];
+    protected $primaryKey = 'applstuid';
     public $timestamp = false;
 }

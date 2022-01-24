@@ -38,3 +38,11 @@ Here students may fill a subject choice form and we save their subject choice li
 <a name="section-5"></a>
 
 ## Models
+
+> {success} ArtStuApply : Contains the art_stu_applies table information.<br>
+BioStuApply : Contains the bio_stu_applies table information.<br>
+MathStuApply : Contains the math_stu_applies table information.<br>
+BusinStuApply : Contains the busin_stu_applies table information.<br>
+InsStuApply : Contains the ins_stu_applies table information.<br>
+LawStuApply : Contains the law_stu_applies table information.<br>
+SocialStuApply : Contains the social_stu_applies table information.<br>

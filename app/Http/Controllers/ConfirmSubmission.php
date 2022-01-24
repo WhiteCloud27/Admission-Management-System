@@ -7,7 +7,14 @@ use Illuminate\Support\Facades\View;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\DB;
-use Carbon\Carbon;
+use App\Models\MathStuApply;
+use App\Models\ArtStuApply;
+use App\Models\SocialStuApply;
+use App\Models\BioStuApply;
+use App\Models\BusinStuApply;
+use App\Models\LawStuApply;
+use App\Models\InsStuApply;
+
 
 class ConfirmSubmission extends Controller
 {
@@ -18,72 +25,58 @@ class ConfirmSubmission extends Controller
        if(strcmp($faculty, "Faculty of Mathematical & Physical Sciences") == 0)
        {
             Storage::append('subjectchooseapplicant/mathapplicant.log', $string);
-            DB::table('mathstuapply') -> insert
-            ([
-               'roll' =>  $request -> {'roll'},
-               'created_at' => Carbon::now() -> toDateTimeString(),
-               'updated_at' => Carbon::now() -> toDateTimeString()
-            ]);
+             $var = new MathStuApply;
+             $var -> roll = $request -> roll;
+             $var -> done = 0;
+             $var -> save();
        }
        elseif(strcmp($faculty, "Faculty of Arts & Humanities") == 0)
        {
             Storage::append('subjectchooseapplicant/artapplicant.log', $string);
-            DB::table('artstuapply') -> insert
-            ([
-               'roll' =>  $request -> {'roll'},
-               'created_at' => Carbon::now() -> toDateTimeString(),
-               'updated_at' => Carbon::now() -> toDateTimeString()
-            ]);
+             $var = new ArtStuApply;
+             $var -> roll = $request -> roll;
+             $var -> done = 0;
+             $var -> save();
        }
        elseif(strcmp($faculty, "Faculty of Social Sciences") == 0)
        {
             Storage::append('subjectchooseapplicant/socialapplicant.log', $string);
-            DB::table('socialstuapply') -> insert
-            ([
-               'roll' =>  $request -> {'roll'},
-               'created_at' => Carbon::now() -> toDateTimeString(),
-               'updated_at' => Carbon::now() -> toDateTimeString()
-            ]);
+             $var = new SocialStuApply;
+             $var -> roll = $request -> roll;
+             $var -> done = 0;
+             $var -> save();
        }
        elseif(strcmp($faculty, "Faculty of Biological Sciences") == 0)
        {
             Storage::append('subjectchooseapplicant/bioapplicant.log', $string);
-            DB::table('biostuapply') -> insert
-            ([
-               'roll' =>  $request -> {'roll'},
-               'created_at' => Carbon::now() -> toDateTimeString(),
-               'updated_at' => Carbon::now() -> toDateTimeString()
-            ]);
+             $var = new BioStuApply;
+             $var -> roll = $request -> roll;
+             $var -> done = 0;
+             $var -> save();
        }
        elseif(strcmp($faculty, "Faculty of Business Studies") == 0)
        {
             Storage::append('subjectchooseapplicant/businessapplicant.log', $string);
-            DB::table('businstuapply') -> insert
-            ([
-               'roll' =>  $request -> {'roll'},
-               'created_at' => Carbon::now() -> toDateTimeString(),
-               'updated_at' => Carbon::now() -> toDateTimeString()
-            ]);
+            $var = new BusinStuApply;
+            $var -> roll = $request -> roll;
+            $var -> done = 0;
+            $var -> save();
        }
        elseif(strcmp($faculty, "Faculty of Law") == 0)
        {
             Storage::append('subjectchooseapplicant/lawapplicant.log', $string);
-            DB::table('lawstuapply') -> insert
-            ([
-               'roll' =>  $request -> {'roll'},
-               'created_at' => Carbon::now() -> toDateTimeString(),
-               'updated_at' => Carbon::now() -> toDateTimeString()
-            ]);
+            $var = new LawStuApply;
+            $var -> roll = $request -> roll;
+            $var -> done = 0;
+            $var -> save();
        }
        else
        {
             Storage::append('subjectchooseapplicant/instituteapplicant.log', $string);
-            DB::table('insstuapply') -> insert
-            ([
-               'roll' =>  $request -> {'roll'},
-               'created_at' => Carbon::now() -> toDateTimeString(),
-               'updated_at' => Carbon::now() -> toDateTimeString()
-            ]);
+            $var = new InsStuApply;
+            $var -> roll = $request -> roll;
+            $var -> done = 0;
+            $var -> save();
        }
 
        return view('success/success');

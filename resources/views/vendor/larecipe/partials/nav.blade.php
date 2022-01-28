@@ -7,7 +7,12 @@
                 @include("larecipe::partials.logo")
 
                 <p class="inline-block font-semibold mx-1 text-grey-dark">
+<<<<<<< HEAD
                     {{ config('app.name') }}
+=======
+                    {{-- {{ config('app.name') }} --}}
+                    Admission Management System
+>>>>>>> 0e187783f48acd90caaf978f811a62b609072d7e
                 </p>
             </a>
 
@@ -27,9 +32,15 @@
                 </larecipe-button>
             @endif
 
+<<<<<<< HEAD
             <larecipe-button tag="a" href="https://github.com/saleem-hadad/larecipe" target="__blank" type="black" class="mx-2 px-4">
                 <i class="fab fa-github"></i>
             </larecipe-button>
+=======
+            <!-- <larecipe-button tag="a" href="https://github.com/saleem-hadad/larecipe" target="__blank" type="black" class="mx-2 px-4">
+                <i class="fab fa-github"></i>
+            </larecipe-button> -->
+>>>>>>> 0e187783f48acd90caaf978f811a62b609072d7e
 
             {{-- versions dropdown --}}
             <larecipe-dropdown>

@@ -20,6 +20,7 @@ use App\Http\Controllers\FaqController;
 use App\Http\Controllers\ContactController;
 
 use App\Http\Controllers\AdminResultController;
+use App\Http\Controllers\AdminSeatPlanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -125,4 +126,10 @@ Route::view("admin","admins");
 
 Route::post("candidate",[AdminResultController::class,'getResult']);
 Route::view("candidate","candidate");
+
+Route::post("adminSeatPlan",[AdminSeatPlanController::class,'setSeatPlan']);
+Route::view("adminseatplan",'adminSeatPlan');
+
+Route::post("userSeatPlan",[AdminSeatPlanController::class,'getSeatPlan']);
+Route::view("userseatplan",'userSeatPlan');
 

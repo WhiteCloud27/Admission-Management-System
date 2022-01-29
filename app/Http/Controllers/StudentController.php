@@ -14,6 +14,40 @@ class StudentController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+<<<<<<< HEAD
+    public function index()
+    {
+
+        $students = DB::table('students')->get();
+
+        return view('form', ['students' => $students]);
+
+        //
+
+        return view('admin.form', ['students' => $students]);
+        //AdmitCard
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+
+    public function create(Request $request)
+    {
+        DB::table('students')->insert([
+            'name' => $request->name,
+            'examroll' => $request->examRoll,
+            'fathersname' => $request->fathersName,
+            'mothersname' => $request->mothersName,
+            'unit' => $request->unit,
+
+        ]);
+        return redirect(route('index'))->with('status', 'Data added succesfully.');
+    }
+=======
+>>>>>>> 471a035b6b2b3ad43ce60074cd5c215bc402f129
     
     public function create(Request $req)
     {
@@ -90,6 +124,10 @@ class StudentController extends Controller
        {
         return view('error');
        }
+<<<<<<< HEAD
+
+=======
+>>>>>>> 471a035b6b2b3ad43ce60074cd5c215bc402f129
     }
 
     /**
@@ -122,7 +160,80 @@ class StudentController extends Controller
      */
     public function edit($id)
     {
+<<<<<<< HEAD
+
+        $student = DB::table('students')->find($id);
+
+        return view('editform', ['student' => $student]);
+
+        //
+
+        return view('admin.editform', ['student' => $student]);
+
+    }
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request $request, $id)
+    {
+
+        DB::table('students')->where('id', $id)->update([
+            'name' => $request->name,
+            'examroll' => $request->examRoll,
+            'fathersname' => $request->fathersName,
+            'mothersname' => $request->mothersName,
+            'unit' => $request->unit,
+        ]);
+        return redirect(route('index'))->with('status', 'Data updated succesfully.');
+
+
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy($id)
+    {
+
+        DB::table('students')->where('id',$id)->delete();
+
+        return redirect(route('index'))->with('status', 'Data deleted succesfully.');
+
+
+    }
+
+
+    // Admit  part
+    public function pdfView($id)
+    {
+        $students = DB::table('students')->where ('id', $id)->get();
+        return view('admit', ['students' => $students]);
+        
+    }
+    public function downloadView()
+    {
+        return view('admitdownload');
+        
+    }
+    // public function downloadView($id)
+    // {
+    //     $student = DB::table('students')->find($id);
+    //     return view('admitdownload', ['student' => $student]);
+    // }
+
+
+}
+=======
         //
     }
 
 }
+>>>>>>> 471a035b6b2b3ad43ce60074cd5c215bc402f129

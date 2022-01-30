@@ -3,18 +3,6 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StudentCont;
 
-
-Route::get('/admin',[StudentCont::class,'index9'])->name('index');
-Route::post('/admin',[StudentCont::class,'addData9'])->name('addData');
-Route::get('/edit/{id}',[StudentCont::class,'edit9'])->name('edit');
-Route::put('/edit/{id}',[StudentCont::class,'update9'])->name('update');
-Route::post('/home',function(){return view('user');});
-Route::get('/delete/{id}',[StudentCont::class,'destroy9'])->name('destroy');
-Route::get('/',function(){return view('user');});
-Route::post('/search-record',[StudentCont::class,'search9']);
-
-
-
 use App\Http\Controllers\FirstController;
 use App\Http\Controllers\AdmitcardController;
 use App\Http\Controllers\PdfController;
@@ -46,7 +34,18 @@ use App\Http\Controllers\AdminSeatPlanController;
 |
 */
 
-Route::get('/', function () {
+Route::get('/admin',[StudentCont::class,'index9'])->name('index');
+Route::post('/admin',[StudentCont::class,'addData9'])->name('addData');
+Route::get('/edit/{id}',[StudentCont::class,'edit9'])->name('edit');
+Route::put('/edit/{id}',[StudentCont::class,'update9'])->name('update');
+Route::post('/home',function(){return view('user');});
+Route::get('/delete/{id}',[StudentCont::class,'destroy9'])->name('destroy');
+Route::get('/hallallocation',function(){return view('user');});
+Route::post('/search-record',[StudentCont::class,'search9']);
+
+
+//Sprint1
+Route::get('/noticeboard', function () {
     return view('index');
 });
 
@@ -82,8 +81,7 @@ Auth::routes();
 
 
 Route::post("users",[UsersController::class, 'getData']);
-Route::view("/","users");
-Route::view("faq","faqs");
+Route::view("/applynow","users");
 
 
 //Admit Card Admin panel route
@@ -111,7 +109,7 @@ Route::get('/admitdownload',[AdmitcardController::class,'downloadView'])->name('
 Route::post('AdminForm',[FaqController::class,'create']);
 Route::get('/Faq',[FaqController::class,'index'])->name('index');
 
-Route::view("/Admin","AdminForm");
+Route::view("/admin","AdminForm");
 
 
 
@@ -135,14 +133,14 @@ Route::get('/contactus',[ContactController::class,'contact'] );
 Route::post('/sendmessage',[ContactController::class,'sendEmail'])->name('contact.send');
 
 Route::post("admins",[AdminResultController::class,'setResult']);
-Route::view("admin","admins");
+Route::view("adminsetresult","admins");
 
 Route::post("candidate",[AdminResultController::class,'getResult']);
-Route::view("candidate","candidate");
+Route::view("/candidate","candidate");
 
 Route::post("adminSeatPlan",[AdminSeatPlanController::class,'setSeatPlan']);
 Route::view("adminseatplan",'adminSeatPlan');
 
 Route::post("userSeatPlan",[AdminSeatPlanController::class,'getSeatPlan']);
-Route::view("userseatplan",'userSeatPlan');
+Route::view("/userseatplan",'userSeatPlan');
 

@@ -1,21 +1,18 @@
 
-- ## Get Started
-    - [Overview](/{{route}}/{{version}}/overview9)
-    - [Controller](/{{route}}/{{version}}/Controller9)
+- ## Hall Allocation Features
+    - [Overview of Hall Allocation](/{{route}}/{{version}}/overview9)
+    - [Controller of Hall Allocation](/{{route}}/{{version}}/Controller9)
 
-- ## Contact Feature
-    - [Contact Overview](/{{route}}/{{version}}/overview)
-    - [Get Result](/{{route}}/{{version}}/getResultDoc)
-- ## Controller
+- ## Contact Features
+    - [Contact Doc](/{{route}}/{{version}}/contact)
+   
+- ## Admission Process 
     - [GetAdmit](/{{route}}/{{version}}/GetAdmit)
     - [ConfirmSubmission](/{{route}}/{{version}}/ConfirmSubmission)
 
     
-- ## Controller
-    - [GetAdmit](/{{route}}/{{version}}/GetAdmit)
-    - [ConfirmSubmission](/{{route}}/{{version}}/ConfirmSubmission)
+- ## Seat Plan Features
     - [seatplandoc](/{{route}}/{{version}}/seatplandoc)
-    - [Contact Overview](/{{route}}/{{version}}/overview)
-    - [Get Result](/{{route}}/{{version}}/getResultDoc)
-
-
+    
+- ## Get Result Features
+ - [Get Result](/{{route}}/{{version}}/getResultDoc)

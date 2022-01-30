@@ -1,10 +1,6 @@
 # Get result
 
 ---
-
-- [First Section](#section-1)
-
-<a name="section-1"></a>
 - [Description](#section-1)
 - [Active Controllers](#section-2)
 - [Functions](#section-3)

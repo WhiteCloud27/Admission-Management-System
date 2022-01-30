@@ -1,4 +1,4 @@
-# Contact
+# Get Admit
 
 ---
 - [Description](#section-1)

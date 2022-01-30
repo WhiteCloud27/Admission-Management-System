@@ -9,4 +9,6 @@ class student extends Model
 {
     use HasFactory;
     public $timestamps = false;
+
+    protected $table = 'studenthalls';
 }

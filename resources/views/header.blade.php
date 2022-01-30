@@ -22,46 +22,51 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="{{ url("/applynow") }}">Apply Now</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{URL::to("/admitdownload")}}">Admit</a>
-            </li>
-            
+
             <!-- <li class="nav-item">
               <a class="nav-link" aria-current="page" href="{{route("about.page")}}">About</a>
             </li> -->
+
             
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="{{ url("/Faq") }}">FAQ</a>
-            </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="{{ url("/candidate") }}">Get Result</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="{{ url("/userseatplan") }}">Seat Plan</a>
-            </li>
+
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="{{ url("/noticeboard") }}">Notice Board</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="{{ url("/hallallocation") }}">Hall Allocation</a>
-            </li>
+
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="{{ url("/choosesubject") }}">Choose Subject</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="{{ url("/getadmitform") }}">Admit Now</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="{{ url("/contactus") }}">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="{{ url("/Faq") }}">FAQ</a>
+            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Others
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="{{ url("/userseatplan") }}">Seat Plan</a>
+                </li>
+                <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="{{URL::to("/admitdownload")}}">Admit Card</a>
+            </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="{{ url("/hallallocation") }}">Hall Allocation</a>
+                </li>
+
+                <!-- <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li> -->
               </ul>
             </li>
 

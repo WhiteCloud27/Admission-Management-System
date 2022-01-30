@@ -1,66 +1,412 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Contact
+---
+- [Description](#section-1)
+- [Active Controllers](#section-2)
+- [Methods](#section-3)
+- [Views-Route](#section-4)
+- [Mail](#section-5)
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<a name="section-2"></a>
 
-## About Laravel
+## Description
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Here we implements the contact feature where Candidate can contact with the authority.
+Candidate can fill up a form and write message there and send message via email.
+The email format will generate automatically using the candidate's given info.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<a name="section-2"></a>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Active Controllers
 
-## Learning Laravel
+1. ContactController.php
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<a name="section-3"></a>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Methods
 
-## Laravel Sponsors
+1. `contact() : Returns view of 'contactus';`
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+```php
+public function contact()
+    {
+        return view('contactus');
+    }
+```
 
-### Premium Partners
+2. `index() : Returns view of 'contacttable';`
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[CMS Max](https://www.cmsmax.com/)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-- **[Romega Software](https://romegasoftware.com)**
+```php
+public function index()
+    {
+        return view('adminContact.contacttable');
+    }
+```
 
-## Contributing
+3. `sendEmail(Request $request) : Send email of candidate to the authority.`
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+```php
+public function sendEmail(Request $request)
+    {
+        $details = [
+            'name' => $request->name,
+            'email' => $request->email,
+            'phone' => $request->phone,
+            'message' => $request->message
+        ];
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+        Mail::to('mahimislam70@gmail.com')->send(new ContactMail($details));
 
-## Security Vulnerabilities
+        return back()->with('message_sent','Your message has been sent successfully.');
+    }
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<a name="section-4"></a>
 
-## License
+## Views-Route
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+| # | Request type   | Path |  Action | Route Name |
+| : |   :-   |  :  | : | : |
+| 1 | GET | /contactus  | Index | Null |
+| 2 | POST  | /sendmessage  | sendemail | contact.send |
+
+
+<a name="section-5"></a>
+
+## Mail
+
+## Class- ContactMail
+
+> {success} ContactMail : Handles the logic behind sending email.
+
+## Methods
+
+1. `__construct() : initializes details;`
+
+```php
+public function __construct($details)
+    {
+        $this->details = $details;
+    }
+```
+
+2. `build() : Returns view of 'ContactMail' and initializes the subject of mail.;`
+
+```php
+public function build()
+    {
+        return $this->subject('Contact message from JU Admission')->view('emails.ContactMail');
+    }
+```
+
+
+
+
+# Get Admit
+
+---
+- [Description](#section-1)
+- [Active Controllers](#section-2)
+- [Functions](#section-3)
+- [Views-Route](#section-4)
+- [Models](#section-5)
+<a name="section-1"></a>
+## Description
+
+Here we implements contact feature where Candidate can complete their admission process.
+Candidate can fill up a form. 
+<a name="section-2"></a>
+
+## Active Controllers
+
+1. GetAdmit.php
+
+<a name="section-3"></a>
+
+## Methods
+
+1. `admit() : Accept form information via $request & 
+			  verify student's given information and save them`
+```php
+ 	public function admit(Request $request)
+    {
+        ......
+    }
+```
+<a name="section-4"></a>
+## Views-Route
+
+| # | Request type   | Path |  Action | Route Name |
+| : |   :-   |  :  | : | : |
+| 1 | POST  | /getadmit  | admit | getadmit |
+
+<a name="section-5"></a>
+
+## Models
+
+> {success} ArtStuApply : Contains the art_stu_applies table information.<br>
+BioStuApply : Contains the bio_stu_applies table information.<br>
+MathStuApply : Contains the math_stu_applies table information.<br>
+BusinStuApply : Contains the busin_stu_applies table information.<br>
+InsStuApply : Contains the ins_stu_applies table information.<br>
+LawStuApply : Contains the law_stu_applies table information.<br>
+SocialStuApply : Contains the social_stu_applies table information.<br>
+
+
+
+# Confirm Submission
+
+---
+- [Description](#section-1)
+- [Active Controllers](#section-2)
+- [Functions](#section-3)
+- [Views-Route](#section-4)
+- [Models](#section-5)
+<a name="section-1"></a>
+## Description
+
+Here students may fill a subject choice form and we save their subject choice list in a file.
+
+<a name="section-2"></a>
+
+## Active Controllers
+
+1. ConfirmSubmission.php
+
+<a name="section-3"></a>
+
+## Methods
+
+1. `done() : Accept form information via $request & save them`
+```php
+ 	public function done(Request $request, $faculty)
+    {
+
+    }
+```
+<a name="section-4"></a>
+## Views-Route
+
+| # | Request type   | Path |  Action | Route Name |
+| : |   :-   |  :  | : | : |
+| 1 | GET  | /done/{faculty}  | done | done |
+
+<a name="section-5"></a>
+
+## Models
+
+> {success} ArtStuApply : Contains the art_stu_applies table information.<br>
+BioStuApply : Contains the bio_stu_applies table information.<br>
+MathStuApply : Contains the math_stu_applies table information.<br>
+BusinStuApply : Contains the busin_stu_applies table information.<br>
+InsStuApply : Contains the ins_stu_applies table information.<br>
+LawStuApply : Contains the law_stu_applies table information.<br>
+SocialStuApply : Contains the social_stu_applies table information.<br>
+
+
+
+# Overview
+
+---
+- [Task](#section-1)
+- [Goals](#section-2)
+- [Objectives](#section-3)
+- [Contributors](#section-4)
+
+<a name="section-1"></a>
+## Task
+
+Our task is to implement a system where students will be able to see what hall they are allocated to.
+
+<a name="section-2"></a>
+## Goals
+
+Our goal is to provide students with all the information they need to start their journey at the campus.
+
+<a name="section-3"></a>
+## Objectives
+
+1. Implement "Get allocated hall".
+2. Merge it with the main project.
+
+<a name="section-4"></a>
+## Contributors
+
+1. Samin
+2. Mahim
+3. Azizul
+4. Prova
+5. Mallika
+
+# Controller
+
+---
+- [Active Controllers](#section-1)
+- [Functions](#section-2)
+- [Views](#section-3)
+- [Models](#section-4)
+
+<a name="section-1"></a>
+## Active Controllers
+
+1. StudentController.php
+
+<a name="section-2"></a>
+## Functions
+
+### StudentController :
+
+1. `index() : Returns view of 'welcome';`
+2. `addData(Request $request) : Insert data into the student table.`
+3. `destroy($id) : Deletes data from student table. `
+4. `edit($id) : Edits data from student table.`
+5. `search(Request $request) : Allows user to search his allocated hall using registration number. `
+
+<a name="section-3"></a>
+## Routes
+
+### StudentController :
+
+| # | Request type   | Path |  Action | Route Name |
+| : |   :-   |  :  | : | : |
+| 1 | GET | /admin  | Index | StudentCont.index |
+| 2 | POST  | /admin  | Create | StudentCont.addData |
+| 3 | GET  | /edit/{id}  | Edit | StudentCont.edit |
+| 4 | PUT  | /edit/{id}  | Update | StudentCont.update |
+| 5 | GET  | /delete/{id}  | Delete | StudentCont.destroy |
+| 6 | POST  | /search-record  | Search | StudentCont.search |
+
+<a name="section-4"></a>
+## Models
+
+### StudentController :
+
+1. `student : Handles the logic behind student table.`
+
+
+# Get result
+
+---
+- [Description](#section-1)
+- [Active Controllers](#section-2)
+- [Functions](#section-3)
+- [Views-Route](#section-4)
+- [Models](#section-5)
+ 
+<a name="section-2"></a>
+ 
+## Description
+ 
+Here we implement the result feature where admin can update result and user can get result.
+ 
+ 
+<a name="section-2"></a>
+ 
+## Active Controllers
+ 
+1. AdminResultController.php
+ 
+<a name="section-3"></a>
+ 
+## Methods
+ 
+1. `setResult() : Returns void; Through this function admin can set result`
+ 
+```php
+function setResult( Request $request)
+    {
+ 
+    }
+```
+ 
+2. `getResult() : Returns view of 'userDetails';User can get result through this method`
+ 
+```php
+function  getResult(Request $request)
+    {    
+        return view('details',['data'=>$data]);
+    }
+```
+ 
+ 
+<a name="section-4"></a>
+ 
+## Views-Route
+ 
+| # | Request type   | Path |  Action | Route Name |
+| : |   :-   |  :  | : | : |
+| 1 | GET | /candidate  | getResult | candidate |
+| 2 | POST  | /admin  | setResult | admins |
+ 
+ 
+<a name="section-5"></a>
+ 
+## Models
+ 
+> {success} Class Get_result : Handles the logic behind setting get result.<br>
+
+
+# SeatPlan
+
+
+- [Description](#section-1)
+- [Active Controllers](#section-2)
+- [Functions](#section-3)
+- [Views-Route](#section-4)
+- [Models](#section-5)
+
+<a name="section-2"></a>
+
+## Description
+
+Here we implement seat plan feature where admin can update seat plan and user can get seat plan.
+
+
+<a name="section-2"></a>
+
+## Active Controllers
+
+1. AdminSeatPlanController.php
+
+<a name="section-3"></a>
+
+## Methods
+
+1. `setSeatPlan() : Returns void; Through this function admin can set seat plan`
+
+```php
+function setSeatPlan( Request $request)
+    {
+ 
+    }
+```
+
+2. `getSeatPlan() : Returns view of 'userDetails';User can get seat plan through this method`
+
+```php
+function  getSeatPlan(Request $request)
+    {    
+        return view('userDetails',['data'=>$data]);
+    }
+```
+
+
+<a name="section-4"></a>
+
+## Views-Route
+
+| # | Request type   | Path |  Action | Route Name |
+| : |   :-   |  :  | : | : |
+| 1 | GET | /userseatplan  | getSeatPlan | userseatplan |
+| 2 | POST  | /adminseatplan  | setSeatPlan | adminseatplan |
+
+
+<a name="section-5"></a>
+
+## Models
+
+> {success} Class Seat : Handles the logic behind setting seat plan.<br>
+  Class User : Handles the logic behind getting seat plan.
+  
+  
+

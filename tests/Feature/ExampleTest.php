@@ -4,6 +4,8 @@ namespace Tests\Feature;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
+use App\Http\Controllers\ConfirmSubmission;
+use App\Models\MathStuApply;
 
 class ExampleTest extends TestCase
 {
@@ -14,8 +16,13 @@ class ExampleTest extends TestCase
      */
     public function test_example()
     {
-        $response = $this->get('/');
-
-        $response->assertStatus(200);
+        //$this->withoutExceptionHandling();
+        $faculty="Faculty of Mathematical & Physical Sciences";
+        $response = $this->post('/done/{$faculty}',[
+            'roll' => '1209',
+            'done' => 0, 
+        ]);
+        $response->assertOk();
+        $this -> assertCount(1,MathStuApply::all());
     }
 }

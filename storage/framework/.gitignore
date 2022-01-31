@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+compiled.php
+config.php
+down
+events.scanned.php
+maintenance.php
+routes.php
+routes.scanned.php
+schedule-*
+services.json
+=======
 config.php
 routes.php
 schedule-*
@@ -6,3 +17,4 @@ services.json
 events.scanned.php
 routes.scanned.php
 down
+>>>>>>> 0e187783f48acd90caaf978f811a62b609072d7e

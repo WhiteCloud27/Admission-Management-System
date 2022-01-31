@@ -1,4 +1,5 @@
 
+
 # Contact
 ---
 - [Description](#section-1)
@@ -99,3 +100,5 @@ public function build()
         return $this->subject('Contact message from JU Admission')->view('emails.ContactMail');
     }
 ```
+
+

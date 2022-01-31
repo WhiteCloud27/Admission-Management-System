@@ -32,7 +32,7 @@ Implement the full project with all the features.
 
 
 
-# Contact
+# Contact with authority feature
 ---
 - [Description](#section-1)
 - [Active Controllers](#section-2)

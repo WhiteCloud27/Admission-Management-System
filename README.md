@@ -11,7 +11,7 @@
 
 ## Description
 
-JU Admission Management System is web softaware system where all the admission seeker students who wants to admit in Jahangirnahar University can Apply, download admit card, see seat plan,  get result, choose subject, get allocation hall, can contact with authority, can admit,  see FAQ and all the others things.
+JU Admission Management System is a web-based system where all the admission seeker students who want to admit in a University can Apply, download admit card, see seat plan,  get result, choose subject, get allocation hall, can contact with authority, can admit,  see FAQ and all the others things.
 
 So It is a platform for the students starting from the apply and end with the get admitted.
 
